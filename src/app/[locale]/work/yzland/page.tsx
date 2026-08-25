@@ -3,11 +3,11 @@ import { Metadata } from 'next';
 import type { Locale } from '@/types';
 
 interface YZLandProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export async function generateMetadata({ params }: YZLandProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   const yzland = messages.work.yzland;
   return {
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: YZLandProps): Promise<Metadat
 }
 
 export default async function YZLandPage({ params }: YZLandProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   const yzland = messages.work.yzland;
 

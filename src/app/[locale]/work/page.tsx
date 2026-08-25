@@ -4,11 +4,11 @@ import Link from 'next/link';
 import type { Locale } from '@/types';
 
 interface WorkIndexProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export async function generateMetadata({ params }: WorkIndexProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   return {
     title: messages.work.index.headline,
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: WorkIndexProps): Promise<Meta
 }
 
 export default async function WorkIndex({ params }: WorkIndexProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
 
   return (

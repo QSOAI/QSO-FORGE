@@ -11,11 +11,11 @@ import { CTA } from '@/components/sections/CTA';
 import type { Locale } from '@/types';
 
 interface HomepageProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export async function generateMetadata({ params }: HomepageProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
 
   return {
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: HomepageProps): Promise<Metad
 }
 
 export default async function Homepage({ params }: HomepageProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
 
   return (

@@ -3,11 +3,11 @@ import { Metadata } from 'next';
 import type { Locale } from '@/types';
 
 interface AboutProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export async function generateMetadata({ params }: AboutProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   return {
     title: messages.about.headline,
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: AboutProps): Promise<Metadata
 }
 
 export default async function AboutPage({ params }: AboutProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
 
   return (

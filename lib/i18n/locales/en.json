@@ -1,0 +1,289 @@
+{
+  "common": {
+    "companyName": "QSO FORGE",
+    "tagline": "Strategy. Experience. Technology. Revenue.",
+    "heroHeadline": "Your website should do more than look good. It should produce business.",
+    "heroSubheadline": "QSO FORGE designs and builds digital revenue systems that turn attention into qualified leads, bookings and customers.",
+    "ctaPrimary": "Request a Revenue Audit",
+    "ctaSecondary": "View Our Work",
+    "navServices": "Services",
+    "navWork": "Work",
+    "navAbout": "About",
+    "navContact": "Contact",
+    "language": "Language",
+    "english": "English",
+    "french": "Français",
+    "arabic": "العربية",
+    "footerRights": "All rights reserved.",
+    "footerPrivacy": "Privacy Policy",
+    "footerTerms": "Terms of Service"
+  },
+  "homepage": {
+    "problem": {
+      "headline": "Most websites are digital brochures. They don't convert.",
+      "body": "You've invested in design, content, maybe even SEO. But the phone isn't ringing. The booking form sits empty. Leads slip through cracks you can't see. The problem isn't your product — it's that your digital presence was built to look professional, not to produce revenue."
+    },
+    "method": {
+      "headline": "Our Method",
+      "subheadline": "Four steps. Measurable outcomes.",
+      "steps": [
+        { "label": "DIAGNOSE", "description": "Revenue Audit — find the leakage, quantify the opportunity." },
+        { "label": "DESIGN", "description": "Premium Digital Experience — position, architect, design for conversion." },
+        { "label": "BUILD", "description": "Conversion Engine — build, integrate, launch with tracking live." },
+        { "label": "OPTIMIZE", "description": "30-day optimization → retainer — iterate from real data." }
+      ]
+    },
+    "services": {
+      "headline": "What We Build",
+      "subheadline": "Four service tiers. Enter where you need to.",
+      "items": [
+        {
+          "id": "diagnose",
+          "title": "01 — DIAGNOSE",
+          "name": "Revenue & Conversion Audit",
+          "description": "A structured diagnosis of your digital revenue system. We score six dimensions, identify what's broken, and deliver a prioritized action plan with expected business impact.",
+          "price": "4,000–8,000 MAD",
+          "href": "/en/services/diagnose"
+        },
+        {
+          "id": "build",
+          "title": "02 — BUILD",
+          "name": "Premium Digital Experience",
+          "description": "Strategy-led design and development. Positioning, UX architecture, custom development, CMS setup, analytics foundation. Built to convert from day one.",
+          "price": "15,000–35,000 MAD",
+          "href": "/en/services/build"
+        },
+        {
+          "id": "convert",
+          "title": "03 — CONVERT",
+          "name": "Conversion Engine",
+          "description": "Landing pages, funnels, booking systems, lead qualification, A/B testing infrastructure, CRM integration. Turns traffic into pipeline.",
+          "price": "30,000–75,000 MAD",
+          "href": "/en/services/convert"
+        },
+        {
+          "id": "automate",
+          "title": "04 — AUTOMATE",
+          "name": "AI & Revenue Systems",
+          "description": "AI agents for qualification, automated follow-up, dynamic content, revenue forecasting, retention workflows. Systems that compound while you sleep.",
+          "price": "35,000–80,000+ MAD",
+          "href": "/en/services/automate"
+        }
+      ]
+    },
+    "caseStudy": {
+      "headline": "Selected Work",
+      "subheadline": "Real projects. Real constraints. Measured outcomes.",
+      "yzland": {
+        "title": "YZLand",
+        "industry": "Experience & Tourism",
+        "tag": "Selected project / portfolio example",
+        "outcomeStatus": "Outcome data pending measurement",
+        "description": "Digital experience redesign for a premium desert tourism operator. Strategy, UX, booking flow, multilingual content architecture.",
+        "href": "/en/work/yzland"
+      }
+    },
+    "whoWeWorkWith": {
+      "headline": "Who We Work With",
+      "subheadline": "Businesses that sell experiences, not commodities.",
+      "sectors": [
+        "Hospitality & Tourism",
+        "Premium Services",
+        "Experience Businesses",
+        "Growth-Stage SMEs",
+        "Destination Brands"
+      ],
+      "note": "These are our primary focus sectors — not an exclusive list."
+    },
+    "technology": {
+      "headline": "Technology We Trust",
+      "subheadline": "Tools that serve the strategy. Never the other way around.",
+      "stack": [
+        "Next.js / React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Cloudflare (DNS, Analytics, Workers where justified)",
+        "Vercel / Netlify (deployment)",
+        "GA4 / GTM / Search Console"
+      ]
+    }
+  },
+  "services": {
+    "index": {
+      "headline": "Our Services",
+      "subheadline": "Four tiers. One goal: digital revenue systems that work.",
+      "flashAuditNote": "Optional launch offer — configurable. Not part of core commercial identity."
+    },
+    "diagnose": {
+      "headline": "Revenue & Conversion Audit",
+      "subheadline": "Find the leakage. Quantify the opportunity. Prioritize what moves revenue.",
+      "price": "4,000–8,000 MAD",
+      "deliverables": [
+        "Six-dimension scorecard (Website, Mobile, Conversion, SEO, Trust, Booking)",
+        "Prioritized findings: what's broken → why it matters → what to fix → what to build first → expected impact (labeled evidence/estimate/hypothesis/unknown)",
+        "30-minute findings walkthrough",
+        "Written report with implementation sequence"
+      ],
+      "process": [
+        "Discovery call (30 min)",
+        "Automated + manual audit (3–5 business days)",
+        "Findings presentation (60 min)",
+        "Written report delivery"
+      ],
+      "cta": "Request This Audit",
+      "flashAudit": {
+        "label": "Flash Audit (Launch Offer)",
+        "description": "Rapid 90-minute remote diagnosis. 1,500 MAD. Configurable — not a permanent service tier.",
+        "cta": "Request Flash Audit"
+      }
+    },
+    "build": {
+      "headline": "Premium Digital Experience",
+      "subheadline": "Strategy-led design and development. Built to convert from day one.",
+      "price": "15,000–35,000 MAD",
+      "deliverables": [
+        "Positioning & messaging framework",
+        "UX architecture & user flows",
+        "Custom design system (not templates)",
+        "Next.js / React development",
+        "CMS setup (content autonomy)",
+        "Analytics & tracking foundation (GA4, GTM, Search Console)",
+        "SEO technical foundation",
+        "Performance optimization",
+        "30-day post-launch optimization included"
+      ],
+      "cta": "Start a Project"
+    },
+    "convert": {
+      "headline": "Conversion Engine",
+      "subheadline": "Landing pages, funnels, booking systems. Turns traffic into pipeline.",
+      "price": "30,000–75,000 MAD",
+      "deliverables": [
+        "High-converting landing pages / funnels",
+        "Booking / inquiry system integration",
+        "Lead qualification & scoring",
+        "A/B testing infrastructure",
+        "CRM / email automation integration",
+        "Form analytics & drop-off tracking",
+        "Conversion rate optimization (90-day sprint)"
+      ],
+      "cta": "Build the Engine"
+    },
+    "automate": {
+      "headline": "AI & Revenue Systems",
+      "subheadline": "Systems that compound while you sleep.",
+      "price": "35,000–80,000+ MAD",
+      "deliverables": [
+        "AI qualification agents (chat, email, forms)",
+        "Automated follow-up sequences",
+        "Dynamic content personalization",
+        "Revenue forecasting dashboards",
+        "Retention & upsell workflows",
+        "Integration with existing stack",
+        "Ongoing optimization retainer available"
+      ],
+      "cta": "Automate Revenue"
+    }
+  },
+  "work": {
+    "index": {
+      "headline": "Selected Work",
+      "subheadline": "Projects where strategy met execution.",
+      "emptyState": "Case studies published with client permission only. More coming soon."
+    },
+    "yzland": {
+      "headline": "YZLand",
+      "tag": "Selected project / portfolio example",
+      "outcomeStatus": "Outcome data pending measurement",
+      "industry": "Experience & Tourism",
+      "services": ["Revenue Audit", "Premium Digital Experience", "Conversion Engine"],
+      "challenge": "Premium desert tourism operator needed a digital presence that matched the quality of their on-ground experience. Existing site was a brochure — no booking flow, no lead capture, no multilingual support for international guests.",
+      "approach": "Revenue Audit identified leakage in mobile UX, booking friction, and trust signals. Designed a premium multilingual experience (EN/FR/AR) with integrated booking inquiry flow, trust-building content architecture, and analytics foundation. Built on Next.js with static export for performance and security.",
+      "outcome": "Site launched. Booking inquiry flow live. Analytics baseline established. Full outcome measurement pending 90-day optimization cycle.",
+      "permissionNote": "Published as a portfolio example. Client endorsement and outcome metrics pending explicit permission."
+    }
+  },
+  "about": {
+    "headline": "About QSO FORGE",
+    "subheadline": "We build digital revenue systems for businesses that have outgrown brochure websites.",
+    "positioning": "QSO FORGE is not a generic web development agency. We work with businesses that sell experiences — hospitality, tourism, premium services, destination brands — and need their digital presence to produce measurable revenue, not just look professional.",
+    "method": {
+      "headline": "Our Internal Method",
+      "description": "We follow a six-layer model internally: DIAGNOSE → POSITION → BUILD → CONVERT → AUTOMATE → OPTIMIZE. Client-facing, we simplify to four words: DIAGNOSE → DESIGN → BUILD → OPTIMIZE. The depth stays ours; the clarity stays yours."
+    },
+    "values": [
+      { "title": "Evidence over ego", "description": "No fabricated metrics. No guaranteed ROI claims. Every recommendation labeled: evidence, estimate, hypothesis, or unknown." },
+      { "title": "Strategy before code", "description": "Technology is supporting infrastructure. We diagnose first, prescribe second, build third." },
+      { "title": "Restrained by design", "description": "No unnecessary animations, dashboards, or complexity. Premium means precise." },
+      { "title": "Commercial honesty", "description": "We price transparently. We say no when the fit isn't right. We optimize for long-term trust." }
+    ]
+  },
+  "contact": {
+    "headline": "Request a Revenue Audit",
+    "subheadline": "Tell us about your business. We'll diagnose the leakage and outline the opportunity.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "website": "Website",
+      "websitePlaceholder": "https://yourdomain.com",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "phone": "WhatsApp / Phone",
+      "phonePlaceholder": "+212 6 XX XX XX XX",
+      "businessType": "Business Type",
+      "businessTypePlaceholder": "e.g., Luxury riad, tour operator, premium spa",
+      "objective": "Main Objective",
+      "objectivePlaceholder": "What's the one outcome you need most?",
+      "message": "Optional Message",
+      "messagePlaceholder": "Anything else we should know?",
+      "honeypot": "website_url",
+      "submit": "Submit Audit Request",
+      "submitting": "Submitting...",
+      "success": "Request received. We'll review and respond within 24 hours.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Valid email required",
+        "companyRequired": "Company is required",
+        "websiteRequired": "Website is required",
+        "websiteInvalid": "Valid URL required (include https://)",
+        "phoneRequired": "Phone/WhatsApp is required",
+        "businessTypeRequired": "Business type is required",
+        "objectiveRequired": "Main objective is required"
+      }
+    },
+    "alternative": "Prefer email? Contact us at hello@qsoforge.com"
+  },
+  "audit": {
+    "dimensions": {
+      "website": "Website",
+      "mobile": "Mobile Experience",
+      "conversion": "Conversion Architecture",
+      "seo": "SEO & Discoverability",
+      "trust": "Trust & Credibility",
+      "booking": "Booking & Inquiry Flow"
+    },
+    "scores": {
+      "label": "Score",
+      "outOf": "/10",
+      "total": "Total Score",
+      "max": "/60"
+    },
+    "impactLabels": {
+      "evidence": "Evidence",
+      "estimate": "Estimate",
+      "hypothesis": "Hypothesis",
+      "unknown": "Unknown"
+    },
+    "finding": {
+      "whatsBroken": "What's Broken",
+      "whyItMatters": "Why It Matters",
+      "whatToFix": "What to Fix",
+      "whatToBuildFirst": "What to Build First",
+      "expectedImpact": "Expected Impact"
+    }
+  }
+}

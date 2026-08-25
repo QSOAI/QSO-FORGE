@@ -4,7 +4,7 @@ import Link from 'next/link';
 import type { Locale } from '@/types';
 
 interface ServicePageProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 function getServiceMessages(messages: any, service: string) {
@@ -12,7 +12,7 @@ function getServiceMessages(messages: any, service: string) {
 }
 
 export async function generateMetadata({ params }: ServicePageProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   const svc = getServiceMessages(messages, 'automate');
   return {
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
 }
 
 export default async function AutomatePage({ params }: ServicePageProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   const svc = getServiceMessages(messages, 'automate');
 

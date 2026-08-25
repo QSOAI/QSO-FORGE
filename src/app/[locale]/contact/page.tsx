@@ -4,11 +4,11 @@ import type { Locale } from '@/types';
 import { ContactForm } from '@/components/forms/ContactForm';
 
 interface ContactPageProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export async function generateMetadata({ params }: ContactPageProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   return {
     title: messages.contact.headline,
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: ContactPageProps): Promise<Me
 }
 
 export default async function ContactPage({ params }: ContactPageProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
 
   return <ContactForm locale={locale} messages={messages} />;
