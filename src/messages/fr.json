@@ -1,0 +1,289 @@
+{
+  "common": {
+    "companyName": "QSO FORGE",
+    "tagline": "Stratégie. Expérience. Technologie. Revenu.",
+    "heroHeadline": "Votre site doit faire plus que belles images. Il doit produire du business.",
+    "heroSubheadline": "QSO FORGE conçoit et construit des systèmes de revenus numériques qui transforment l'attention en leads qualifiés, réservations et clients.",
+    "ctaPrimary": "Demander un Audit Revenu",
+    "ctaSecondary": "Voir Nos Réalisations",
+    "navServices": "Services",
+    "navWork": "Réalisations",
+    "navAbout": "À Propos",
+    "navContact": "Contact",
+    "language": "Langue",
+    "english": "English",
+    "french": "Français",
+    "arabic": "العربية",
+    "footerRights": "Tous droits réservés.",
+    "footerPrivacy": "Politique de Confidentialité",
+    "footerTerms": "Conditions d'Utilisation"
+  },
+  "homepage": {
+    "problem": {
+      "headline": "La plupart des sites sont des brochures numériques. Ils ne convertissent pas.",
+      "body": "Vous avez investi dans le design, le contenu, peut-être le SEO. Mais le téléphone ne sonne pas. Le formulaire de réservation reste vide. Les leads s'échappent par des failles invisibles. Le problème n'est pas votre produit — c'est que votre présence digitale a été construite pour paraître professionnelle, pas pour produire du revenu."
+    },
+    "method": {
+      "headline": "Notre Méthode",
+      "subheadline": "Quatre étapes. Des résultats mesurables.",
+      "steps": [
+        { "label": "DIAGNOSTIQUER", "description": "Audit Revenu — identifier les fuites, quantifier l'opportunité." },
+        { "label": "CONCEVOIR", "description": "Expérience Digitale Premium — positionner, architecturer, designer pour la conversion." },
+        { "label": "CONSTRUIRE", "description": "Moteur de Conversion — construire, intégrer, lancer avec le tracking actif." },
+        { "label": "OPTIMISER", "description": "Optimisation 30 jours → retainer — itérer depuis les vraies données." }
+      ]
+    },
+    "services": {
+      "headline": "Ce Que Nous Construisons",
+      "subheadline": "Quatre niveaux de service. Entrez où vous en avez besoin.",
+      "items": [
+        {
+          "id": "diagnose",
+          "title": "01 — DIAGNOSTIQUER",
+          "name": "Audit Revenu & Conversion",
+          "description": "Un diagnostic structuré de votre système de revenus digital. Nous notons six dimensions, identifions ce qui casse, et livrons un plan d'action priorisé avec impact business attendu.",
+          "price": "4 000–8 000 MAD",
+          "href": "/fr/services/diagnose"
+        },
+        {
+          "id": "build",
+          "title": "02 — CONSTRUIRE",
+          "name": "Expérience Digitale Premium",
+          "description": "Design et développement pilotés par la stratégie. Positionnement, architecture UX, développement sur mesure, CMS, fondation analytics. Construit pour convertir dès le premier jour.",
+          "price": "15 000–35 000 MAD",
+          "href": "/fr/services/build"
+        },
+        {
+          "id": "convert",
+          "title": "03 — CONVERTIR",
+          "name": "Moteur de Conversion",
+          "description": "Pages de destination, tunnels, systèmes de réservation, qualification leads, infrastructure A/B, intégration CRM. Transforme le trafic en pipeline.",
+          "price": "30 000–75 000 MAD",
+          "href": "/fr/services/convert"
+        },
+        {
+          "id": "automate",
+          "title": "04 — AUTOMATISER",
+          "name": "IA & Systèmes de Revenu",
+          "description": "Agents IA pour qualification, suivi automatisé, contenu dynamique, prévision revenus, workflows rétention. Des systèmes qui se composent pendant que vous dormez.",
+          "price": "35 000–80 000+ MAD",
+          "href": "/fr/services/automate"
+        }
+      ]
+    },
+    "caseStudy": {
+      "headline": "Réalisations Sélectionnées",
+      "subheadline": "Projets réels. Contraintes réelles. Résultats mesurés.",
+      "yzland": {
+        "title": "YZLand",
+        "industry": "Expérience & Tourisme",
+        "tag": "Projet sélectionné / exemple de portfolio",
+        "outcomeStatus": "Données de résultat en attente de mesure",
+        "description": "Refonte de l'expérience digitale pour un opérateur tourisme désert premium. Stratégie, UX, flux de réservation, architecture de contenu multilingue.",
+        "href": "/fr/work/yzland"
+      }
+    },
+    "whoWeWorkWith": {
+      "headline": "Avec Qui Nous Travaillons",
+      "subheadline": "Entreprises qui vendent des expériences, pas des commodités.",
+      "sectors": [
+        "Hôtellerie & Tourisme",
+        "Services Premium",
+        "Entreprises d'Expérience",
+        "PME en Croissance",
+        "Marques de Destination"
+      ],
+      "note": "Ce sont nos secteurs de prédilection — pas une liste exclusive."
+    },
+    "technology": {
+      "headline": "Technologies Que Nous Faisons Confiance",
+      "subheadline": "Des outils qui servent la stratégie. Jamais l'inverse.",
+      "stack": [
+        "Next.js / React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Cloudflare (DNS, Analytics, Workers si justifié)",
+        "Vercel / Netlify (déploiement)",
+        "GA4 / GTM / Search Console"
+      ]
+    }
+  },
+  "services": {
+    "index": {
+      "headline": "Nos Services",
+      "subheadline": "Quatre niveaux. Un objectif : systèmes de revenus digitaux qui marchent.",
+      "flashAuditNote": "Offre de lancement optionnelle — configurable. Ne fait pas partie de l'identité commerciale core."
+    },
+    "diagnose": {
+      "headline": "Audit Revenu & Conversion",
+      "subheadline": "Trouvez les fuites. Quantifiez l'opportunité. Priorisez ce qui bouge le revenu.",
+      "price": "4 000–8 000 MAD",
+      "deliverables": [
+        "Grille de notation six dimensions (Site, Mobile, Conversion, SEO, Confiance, Réservation)",
+        "Constats priorisés : ce qui casse → pourquoi ça compte → quoi corriger → quoi construire d'abord → impact attendu (étiqueté preuve/estimation/hypothèse/inconnu)",
+        "Présentation des constats (30 min)",
+        "Rapport écrit avec séquence d'implémentation"
+      ],
+      "process": [
+        "Appel découverte (30 min)",
+        "Audit automatisé + manuel (3–5 jours ouvrés)",
+        "Présentation des constats (60 min)",
+        "Livraison rapport écrit"
+      ],
+      "cta": "Demander Cet Audit",
+      "flashAudit": {
+        "label": "Flash Audit (Offre Lancement)",
+        "description": "Diagnostic rapide 90 min à distance. 1 500 MAD. Configurable — pas un niveau de service permanent.",
+        "cta": "Demander Flash Audit"
+      }
+    },
+    "build": {
+      "headline": "Expérience Digitale Premium",
+      "subheadline": "Design et développement pilotés par la stratégie. Construit pour convertir dès le premier jour.",
+      "price": "15 000–35 000 MAD",
+      "deliverables": [
+        "Cadre de positionnement & messaging",
+        "Architecture UX & parcours utilisateurs",
+        "Design system sur mesure (pas de templates)",
+        "Développement Next.js / React",
+        "Configuration CMS (autonomie contenu)",
+        "Fondation analytics & tracking (GA4, GTM, Search Console)",
+        "Fondation SEO technique",
+        "Optimisation performance",
+        "Optimisation 30 jours post-lancement incluse"
+      ],
+      "cta": "Lancer un Projet"
+    },
+    "convert": {
+      "headline": "Moteur de Conversion",
+      "subheadline": "Pages de destination, tunnels, systèmes de réservation. Transforme le trafic en pipeline.",
+      "price": "30 000–75 000 MAD",
+      "deliverables": [
+        "Pages de destination / tunnels haute conversion",
+        "Intégration système réservation / demande",
+        "Qualification & scoring leads",
+        "Infrastructure tests A/B",
+        "Intégration CRM / email automation",
+        "Analytics formulaires & tracking abandons",
+        "Optimisation taux conversion (sprint 90 jours)"
+      ],
+      "cta": "Construire le Moteur"
+    },
+    "automate": {
+      "headline": "IA & Systèmes de Revenu",
+      "subheadline": "Des systèmes qui se composent pendant que vous dormez.",
+      "price": "35 000–80 000+ MAD",
+      "deliverables": [
+        "Agents IA qualification (chat, email, formulaires)",
+        "Séquences de suivi automatisées",
+        "Personnalisation contenu dynamique",
+        "Tableaux de bord prévision revenus",
+        "Workflows rétention & upsell",
+        "Intégration stack existante",
+        "Retainer optimisation continue disponible"
+      ],
+      "cta": "Automatiser le Revenu"
+    }
+  },
+  "work": {
+    "index": {
+      "headline": "Réalisations Sélectionnées",
+      "subheadline": "Projets où la stratégie a rencontré l'exécution.",
+      "emptyState": "Études de cas publiées avec permission client uniquement. D'autres arrivent bientôt."
+    },
+    "yzland": {
+      "headline": "YZLand",
+      "tag": "Projet sélectionné / exemple de portfolio",
+      "outcomeStatus": "Données de résultat en attente de mesure",
+      "industry": "Expérience & Tourisme",
+      "services": ["Audit Revenu", "Expérience Digitale Premium", "Moteur de Conversion"],
+      "challenge": "Opérateur tourisme désert premium avait besoin d'une présence digitale à la hauteur de leur expérience terrain. Site existant = brochure — pas de flux réservation, pas de capture leads, pas de support multilingue pour clients internationaux.",
+      "approach": "Audit Revenu a identifié fuites UX mobile, friction réservation, signaux confiance. Design expérience premium multilingue (EN/FR/AR) avec flux réservation intégré, architecture contenu trust-building, fondation analytics. Construit sur Next.js avec export statique pour performance et sécurité.",
+      "outcome": "Site lancé. Flux demande réservation live. Baseline analytics établie. Mesure complète résultats en attente cycle optimisation 90 jours.",
+      "permissionNote": "Publié comme exemple de portfolio. Endorsement client et métriques résultats en attente permission explicite."
+    }
+  },
+  "about": {
+    "headline": "À Propos de QSO FORGE",
+    "subheadline": "Nous construisons des systèmes de revenus digitaux pour entreprises qui ont dépassé le stade site-brochure.",
+    "positioning": "QSO FORGE n'est pas une agence web générique. Nous travaillons avec entreprises qui vendent des expériences — hôtellerie, tourisme, services premium, marques de destination — et ont besoin que leur présence digitale produise du revenu mesurable, pas juste paraître professionnelle.",
+    "method": {
+      "headline": "Notre Méthode Interne",
+      "description": "Nous suivons un modèle six couches en interne : DIAGNOSTIQUER → POSITIONNER → CONSTRUIRE → CONVERTIR → AUTOMATISER → OPTIMISER. Côté client, nous simplifions à quatre mots : DIAGNOSTIQUER → CONCEVOIR → CONSTRUIRE → OPTIMISER. La profondeur reste nôtre ; la clarté reste vôtre."
+    },
+    "values": [
+      { "title": "Preuves sur ego", "description": "Pas de métriques inventées. Pas de ROI garanti. Chaque recommandation étiquetée : preuve, estimation, hypothèse, ou inconnu." },
+      { "title": "Stratégie avant code", "description": "La technologie est infrastructure support. Nous diagnostiquons d'abord, prescrivons second, construisons troisième." },
+      { "title": "Retenue par design", "description": "Pas d'animations, dashboards, ou complexité inutiles. Premium = précis." },
+      { "title": "Honnêteté commerciale", "description": "Prix transparents. Nous disons non quand le fit n'est pas là. Optimisons pour la confiance long-terme." }
+    ]
+  },
+  "contact": {
+    "headline": "Demander un Audit Revenu",
+    "subheadline": "Parlez-nous de votre entreprise. Nous diagnostiquerons les fuites et dessinerons l'opportunité.",
+    "form": {
+      "name": "Nom Complet",
+      "namePlaceholder": "Votre nom",
+      "company": "Entreprise",
+      "companyPlaceholder": "Nom de l'entreprise",
+      "website": "Site Web",
+      "websitePlaceholder": "https://votre-domaine.com",
+      "email": "Email",
+      "emailPlaceholder": "vous@entreprise.com",
+      "phone": "WhatsApp / Téléphone",
+      "phonePlaceholder": "+212 6 XX XX XX XX",
+      "businessType": "Type d'Activité",
+      "businessTypePlaceholder": "ex: Riad luxe, tour opérateur, spa premium",
+      "objective": "Objectif Principal",
+      "objectivePlaceholder": "Quel est le résultat unique dont vous avez le plus besoin ?",
+      "message": "Message Optionnel",
+      "messagePlaceholder": "Autre chose à nous dire ?",
+      "honeypot": "website_url",
+      "submit": "Envoyer la Demande d'Audit",
+      "submitting": "Envoi en cours...",
+      "success": "Demande reçue. Nous examinons et répondons sous 24h.",
+      "error": "Erreur. Réessayez ou écrivez-nous directement.",
+      "validation": {
+        "nameRequired": "Le nom est requis",
+        "emailRequired": "L'email est requis",
+        "emailInvalid": "Email valide requis",
+        "companyRequired": "L'entreprise est requise",
+        "websiteRequired": "Le site web est requis",
+        "websiteInvalid": "URL valide requise (inclure https://)",
+        "phoneRequired": "Téléphone/WhatsApp requis",
+        "businessTypeRequired": "Type d'activité requis",
+        "objectiveRequired": "Objectif principal requis"
+      }
+    },
+    "alternative": "Préférez l'email ? Contactez-nous à hello@qsoforge.com"
+  },
+  "audit": {
+    "dimensions": {
+      "website": "Site Web",
+      "mobile": "Expérience Mobile",
+      "conversion": "Architecture Conversion",
+      "seo": "SEO & Découvrabilité",
+      "trust": "Confiance & Crédibilité",
+      "booking": "Flux Réservation & Demande"
+    },
+    "scores": {
+      "label": "Score",
+      "outOf": "/10",
+      "total": "Score Total",
+      "max": "/60"
+    },
+    "impactLabels": {
+      "evidence": "Preuve",
+      "estimate": "Estimation",
+      "hypothesis": "Hypothèse",
+      "unknown": "Inconnu"
+    },
+    "finding": {
+      "whatsBroken": "Ce Qui Casse",
+      "whyItMatters": "Pourquoi Ça Compte",
+      "whatToFix": "Quoi Corriger",
+      "whatToBuildFirst": "Quoi Construire En Premier",
+      "expectedImpact": "Impact Attendu"
+    }
+  }
+}
