@@ -3,11 +3,11 @@ import { Metadata } from 'next';
 import type { Locale } from '@/types';
 
 interface AuditIndexProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export async function generateMetadata({ params }: AuditIndexProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   return {
     title: 'Revenue Audit System',
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: AuditIndexProps): Promise<Met
 }
 
 export default async function AuditIndex({ params }: AuditIndexProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
 
   return (

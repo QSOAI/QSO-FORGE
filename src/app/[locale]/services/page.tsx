@@ -4,11 +4,11 @@ import Link from 'next/link';
 import type { Locale } from '@/types';
 
 interface ServicesIndexProps {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }
 
 export async function generateMetadata({ params }: ServicesIndexProps): Promise<Metadata> {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   return {
     title: messages.services.index.headline,
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: ServicesIndexProps): Promise<
 }
 
 export default async function ServicesIndex({ params }: ServicesIndexProps) {
-  const locale = (params as any)?.locale ?? 'en';
+  const { locale } = await params;
   const messages = await getMessages(locale);
   const { items } = messages.homepage.services;
 
