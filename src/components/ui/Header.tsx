@@ -21,7 +21,8 @@ interface HeaderProps {
   };
 }
 
-const locales: Locale[] = ['en', 'fr', 'ar'];
+// EN-only prod — FR/AR routes exist in out/ with [NEEDS INPUT] stubs (preview only) until translations supplied
+const locales: Locale[] = ['en'];
 const localeLabels: Record<Locale, string> = {
   en: 'English',
   fr: 'Français',
