@@ -317,70 +317,70 @@
     }
   },
   "methodPage": {
-    "heroHeadline": "[NEEDS INPUT: FR/AR translation] Revenue Systems Method — Diagnose. Design. Build. Optimize.",
-    "heroSubheadline": "[NEEDS INPUT: FR/AR translation] Four steps. Measurable outcomes.",
+    "heroHeadline": "Méthode Revenue Systems — Diagnostiquer. Concevoir. Construire. Optimiser.",
+    "heroSubheadline": "Quatre étapes. Des résultats mesurables. Une ligne chacune, sans superflu.",
     "steps": [
       {
         "label": "DIAGNOSTIQUER",
-        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
-        "detail": "[NEEDS INPUT: FR/AR translation]"
+        "oneLiner": "Audit six dimensions avec scoring — trouvez ce qui fuit.",
+        "detail": "Audit six dimensions (Site, Mobile, Conversion, SEO, Confiance, Réservation). Noté 0–10 chacun, /60 total. Ce que nous vérifions, comment nous notons, et ce que vous recevez — aucune nouvelle métrique inventée."
       },
       {
         "label": "CONCEVOIR",
-        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
-        "detail": "[NEEDS INPUT: FR/AR translation]"
+        "oneLiner": "Wireframe + copy + flux — le positionnement avant les pixels.",
+        "detail": "Wireframe UX, copy de conversion et flux de demande mappés depuis les constats d'audit."
       },
       {
         "label": "CONSTRUIRE",
-        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
-        "detail": "[NEEDS INPUT: FR/AR translation]"
+        "oneLiner": "Livrez sur Cloudflare Pages avec intégrations actives.",
+        "detail": "Export statique Next.js vers Cloudflare Pages. Intégrations : Formspree, WhatsApp, PayPal.me, Turnstile, GA4, GTM."
       },
       {
         "label": "OPTIMISER",
-        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
-        "detail": "[NEEDS INPUT: FR/AR translation]"
+        "oneLiner": "Mesurez et itérez — gardez ce qui convertit.",
+        "detail": "Mesure post-lancement et itération contre la baseline notée."
       }
     ],
-    "domainsTitle": "[NEEDS INPUT: FR/AR translation] The six audit domains",
-    "domainsSubheadline": "[NEEDS INPUT: FR/AR translation]",
-    "deliverablesTitle": "[NEEDS INPUT: FR/AR translation] What you receive",
+    "domainsTitle": "Les six domaines d'audit",
+    "domainsSubheadline": "Ce que nous vérifions, comment nous notons (0–10 chacun, /60 total), et ce que vous recevez — depuis le contenu diagnose existant.",
+    "deliverablesTitle": "Ce que vous recevez",
     "deliverables": [
-      "[NEEDS INPUT: FR/AR translation]",
-      "[NEEDS INPUT: FR/AR translation]",
-      "[NEEDS INPUT: FR/AR translation]",
-      "[NEEDS INPUT: FR/AR translation]"
+      "Rapport d'audit (matrice notée + constats)",
+      "Liste de correctifs priorisée (ce qui casse → quoi corriger d'abord)",
+      "Plan d'implémentation (séquence + effort)",
+      "Présentation des constats (30 min)"
     ],
-    "craftScoreTitle": "[NEEDS INPUT: FR/AR translation] Craft Score",
-    "craftScoreBody": "[NEEDS INPUT: FR/AR translation] Pass = ready to scale traffic. Fail = fix before ad spend.",
-    "ctaTitle": "[NEEDS INPUT: FR/AR translation] Start with the audit",
-    "ctaBody": "[NEEDS INPUT: FR/AR translation]",
-    "ctaPrimary": "Demander un Audit Revenu",
-    "ctaSecondary": "[NEEDS INPUT: FR/AR translation] Get a sample"
+    "craftScoreTitle": "Craft Score — seuil qualité en langage clair",
+    "craftScoreBody": "Réussi = prêt à scaler le trafic. Échoué = corrigez avant tout spend pub. Sans jargon, sans modèle caché.",
+    "ctaTitle": "Commencez par l'audit",
+    "ctaBody": "Audit Revenu 4 000–8 000 MAD est le point d'entrée principal. L'échantillon Intelligence est une offre lead séparée pour audiences écosystème.",
+    "ctaPrimary": "Demander un Audit Revenu — 4 000–8 000 MAD",
+    "ctaSecondary": "Obtenir un échantillon (Intelligence — bientôt)"
   },
   "intelligence": {
-    "heroHeadline": "[NEEDS INPUT: FR/AR translation] Intelligence — Verified shortlists of Moroccan AI startups",
-    "heroBadge": "[NEEDS INPUT: FR/AR translation] Phase 0 — Spreadsheet — Company-level only",
-    "heroSubheadline": "[NEEDS INPUT: FR/AR translation]",
+    "heroHeadline": "Intelligence — Shortlists vérifiées de startups IA marocaines",
+    "heroBadge": "Phase 0 — Tableur — Niveau entreprise uniquement — Vérification manuelle — Loi 09-08 en attente counsel",
+    "heroSubheadline": "Offre lead pour audiences écosystème, pas le produit core. L'audit reste le CTA principal.",
     "notList": [
-      "[NEEDS INPUT: FR/AR translation]",
-      "[NEEDS INPUT: FR/AR translation]",
-      "[NEEDS INPUT: FR/AR translation]",
-      "[NEEDS INPUT: FR/AR translation]"
+      "Pas une base de données",
+      "Pas de store d'entités",
+      "Pas de file de vérification",
+      "Pas de décision d'hébergement avant le gate Phase 2"
     ],
-    "notTitle": "[NEEDS INPUT: FR/AR translation]",
-    "tableTitle": "[NEEDS INPUT: FR/AR translation] Phase 0 sample",
-    "tableNote": "[NEEDS INPUT: FR/AR translation] Company-level only — Confirm with counsel",
+    "notTitle": "Ce que ce n'est pas",
+    "tableTitle": "Échantillon Phase 0 — 15 startups, niveau entreprise uniquement",
+    "tableNote": "Niveau entreprise uniquement pour réduire l'exposition Loi 09-08 — Confirmez avec counsel. Pas de colonne Équipe, pas de fondateurs nommés pour Phase 0.",
     "columns": [
       "Startup",
-      "Sector",
-      "City",
-      "Product",
+      "Secteur",
+      "Ville",
+      "Produit",
       "Traction Observable",
-      "Funding Public",
-      "Source URL",
-      "Last Verified",
-      "Fit Note",
-      "Verification Flag"
+      "Financement Public",
+      "URL Source",
+      "Dernière Vérification",
+      "Note Fit",
+      "Flag Vérification"
     ],
     "rows": [
       {
@@ -393,7 +393,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 02]",
@@ -405,7 +405,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 03]",
@@ -417,7 +417,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 04]",
@@ -429,7 +429,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 05]",
@@ -441,7 +441,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 06]",
@@ -453,7 +453,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 07]",
@@ -465,7 +465,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 08]",
@@ -477,7 +477,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 09]",
@@ -489,7 +489,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 10]",
@@ -501,7 +501,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 11]",
@@ -513,7 +513,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 12]",
@@ -525,7 +525,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 13]",
@@ -537,7 +537,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 14]",
@@ -549,7 +549,7 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       },
       {
         "startup": "[NEEDS INPUT: Startup 15]",
@@ -561,63 +561,63 @@
         "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
         "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
         "fitNote": "[NEEDS INPUT: Fit note]",
-        "verificationFlag": "Uncertain"
+        "verificationFlag": "Incertain"
       }
     ],
-    "verificationTitle": "[NEEDS INPUT: FR/AR translation]",
-    "verificationBody": "[NEEDS INPUT: FR/AR translation]",
-    "salesTitle": "[NEEDS INPUT: FR/AR translation]",
-    "salesBody": "[NEEDS INPUT: FR/AR translation]",
-    "buyersTitle": "[NEEDS INPUT: FR/AR translation]",
-    "buyersBody": "[NEEDS INPUT: FR/AR translation]",
-    "economicsTitle": "[NEEDS INPUT: FR/AR translation]",
-    "economicsBody": "[NEEDS INPUT: FR/AR translation]",
-    "pricingLine": "[NEEDS INPUT: FR/AR translation] Founding-client pricing — talk to us.",
-    "aiRole": "[NEEDS INPUT: FR/AR translation] AI drafts and ingests, analyst verifies and signs off.",
-    "ctaPrimary": "[NEEDS INPUT: FR/AR translation] Get a sample",
-    "ctaSecondary": "Demander un Audit Revenu",
-    "stagingNote": "[NEEDS INPUT: FR/AR translation + verified sample]"
+    "verificationTitle": "Politique de vérification",
+    "verificationBody": "Infos publiques uniquement, au moins deux sources par ligne, avec flag date. Flagguez chaque ligne Vérifié / Incertain / Périmé.",
+    "salesTitle": "Parcours de vente",
+    "salesBody": "Échantillon gratuit (15 startups) → Pilote payant (15–25 vérifiées) → Recommande. Gate : au moins 2 reorders en 90 jours — les échantillons gratuits ne comptent pas. Time-boxé 90 jours depuis le premier brief payant. Store construit seulement après le gate.",
+    "buyersTitle": "Segments acheteurs",
+    "buyersBody": "Builders d'écosystème type MCP (MCP Ventures for Africa connecte startups IA Maroc/Afrique aux entreprises, investisseurs, institutions — clients, financement, POC, programmes, adoption), accélérateurs, seed funds, innovation corporate, angel networks.",
+    "economicsTitle": "Économie",
+    "economicsBody": "Analyste 12–16h par secteur. Coût = heures × taux. Vendre 15k–30k MAD par brief [ASSUMÉ en attente pilote — suivez réel 3 premiers briefs].",
+    "pricingLine": "Pricing client fondateur — parlez-nous.",
+    "aiRole": "L'IA rédige et ingère, l'analyste vérifie et signe. Gouverné par PEMS 11 vecteurs SHA-256 RC1.1. AI Factory powers layer.",
+    "ctaPrimary": "Obtenir un échantillon",
+    "ctaSecondary": "Demander un Audit Revenu — 4 000–8 000 MAD",
+    "stagingNote": "[NEEDS INPUT: Échantillon 15 startups vérifié] — Staging-blocked, ne pas releaser en prod tant que le fondateur ne fournit pas les lignes vérifiées."
   },
   "aiSystems": {
-    "heroBadge": "[NEEDS INPUT: FR/AR translation] Staging-blocked",
-    "heroHeadline": "[NEEDS INPUT: FR/AR translation] AI Systems — Orchestrated agents with validation",
-    "heroSubheadline": "[NEEDS INPUT: FR/AR translation]",
-    "rolesTitle": "[NEEDS INPUT: FR/AR translation] Agent roles",
+    "heroBadge": "Staging-blocked — En attente PEMS example+hash + Factory allow-list",
+    "heroHeadline": "AI Systems — Agents orchestrés avec validation",
+    "heroSubheadline": "Architecture et rôles. Pas de démo live tant que l'exemple vérifié n'est pas fourni.",
+    "rolesTitle": "Rôles des agents",
     "roles": [
       {
         "name": "Orchestrator",
-        "desc": "[NEEDS INPUT: FR/AR translation]"
+        "desc": "Route le travail entre agents et applique la boucle de validation."
       },
       {
         "name": "Architect",
-        "desc": "[NEEDS INPUT: FR/AR translation]"
+        "desc": "Conçoit le plan et la structure avant exécution."
       },
       {
         "name": "Critic",
-        "desc": "[NEEDS INPUT: FR/AR translation]"
+        "desc": "Challenge la sortie contre les 11 vecteurs."
       },
       {
         "name": "Coach",
-        "desc": "[NEEDS INPUT: FR/AR translation]"
+        "desc": "Guide l'itération vers le quality gate."
       }
     ],
-    "loopTitle": "[NEEDS INPUT: FR/AR translation] DGVR validation loop",
-    "loopBody": "[NEEDS INPUT: FR/AR translation] DGVR validation loop with LOCK_VIOLATION 5-cycle.",
-    "vectorsNote": "[NEEDS INPUT: FR/AR translation]",
-    "exampleTitle": "[NEEDS INPUT: FR/AR translation] Scored example",
-    "exampleBody": "[NEEDS INPUT: FR/AR translation + PEMS example+hash]",
-    "subsectionsTitle": "[NEEDS INPUT: FR/AR translation] Related",
+    "loopTitle": "Boucle de validation DGVR",
+    "loopBody": "Boucle de validation DGVR avec garde LOCK_VIOLATION 5-cycle. Évaluation sur 11 vecteurs V01–V11. SHA-256 RC1.1 verrouillé 6 mai 2026, 20-run.",
+    "vectorsNote": "11 vecteurs V01–V11 — SHA-256 RC1.1 verrouillé 6 mai 2026 — 20-run. Aucun chiffre marge, revenu ou hypothèse publié.",
+    "exampleTitle": "Exemple noté",
+    "exampleBody": "[NEEDS INPUT: PEMS example+hash] — Un vrai exemple noté avec hash une fois fourni. Aucun hash inventé.",
+    "subsectionsTitle": "Associés",
     "subsections": [
       {
         "name": "/prompt-os",
-        "desc": "[NEEDS INPUT: FR/AR translation] Coming soon — staging-blocked"
+        "desc": "Bientôt — staging-blocked"
       },
       {
         "name": "/ai-factory",
-        "desc": "[NEEDS INPUT: FR/AR translation] Coming soon — staging-blocked"
+        "desc": "Bientôt — staging-blocked. Pas de détails 8-server MCP 14-sec tant que allow-list."
       }
     ],
-    "ctaPrimary": "Demander un Audit Revenu",
-    "ctaSecondary": "[NEEDS INPUT: FR/AR translation] See the Method"
+    "ctaPrimary": "Demander un Audit Revenu — 4 000–8 000 MAD",
+    "ctaSecondary": "Voir la Méthode"
   }
 }
