@@ -315,5 +315,46 @@
       "whatToBuildFirst": "ما يُبنى أولاً",
       "expectedImpact": "التأثير المتوقع"
     }
+  },
+  "methodPage": {
+    "heroHeadline": "[NEEDS INPUT: FR/AR translation] Revenue Systems Method — Diagnose. Design. Build. Optimize.",
+    "heroSubheadline": "[NEEDS INPUT: FR/AR translation] Four steps. Measurable outcomes.",
+    "steps": [
+      {
+        "label": "تشخيص",
+        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
+        "detail": "[NEEDS INPUT: FR/AR translation]"
+      },
+      {
+        "label": "تصميم",
+        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
+        "detail": "[NEEDS INPUT: FR/AR translation]"
+      },
+      {
+        "label": "بناء",
+        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
+        "detail": "[NEEDS INPUT: FR/AR translation]"
+      },
+      {
+        "label": "تحسين",
+        "oneLiner": "[NEEDS INPUT: FR/AR translation]",
+        "detail": "[NEEDS INPUT: FR/AR translation]"
+      }
+    ],
+    "domainsTitle": "[NEEDS INPUT: FR/AR translation] The six audit domains",
+    "domainsSubheadline": "[NEEDS INPUT: FR/AR translation]",
+    "deliverablesTitle": "[NEEDS INPUT: FR/AR translation] What you receive",
+    "deliverables": [
+      "[NEEDS INPUT: FR/AR translation]",
+      "[NEEDS INPUT: FR/AR translation]",
+      "[NEEDS INPUT: FR/AR translation]",
+      "[NEEDS INPUT: FR/AR translation]"
+    ],
+    "craftScoreTitle": "[NEEDS INPUT: FR/AR translation] Craft Score",
+    "craftScoreBody": "[NEEDS INPUT: FR/AR translation] Pass = ready to scale traffic. Fail = fix before ad spend.",
+    "ctaTitle": "[NEEDS INPUT: FR/AR translation] Start with the audit",
+    "ctaBody": "[NEEDS INPUT: FR/AR translation]",
+    "ctaPrimary": "طلب تدقيق إيرادات",
+    "ctaSecondary": "[NEEDS INPUT: FR/AR translation] Get a sample"
   }
 }

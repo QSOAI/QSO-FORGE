@@ -315,5 +315,46 @@
       "whatToBuildFirst": "What to Build First",
       "expectedImpact": "Expected Impact"
     }
+  },
+  "methodPage": {
+    "heroHeadline": "Revenue Systems Method — Diagnose. Design. Build. Optimize.",
+    "heroSubheadline": "Four steps. Measurable outcomes. One line each, no fluff.",
+    "steps": [
+      {
+        "label": "DIAGNOSE",
+        "oneLiner": "Six-domain audit with scoring — find what leaks.",
+        "detail": "Six-domain audit (Website, Mobile, Conversion, SEO, Trust, Booking). Scored 0–10 each, /60 total. What we check, how we score, and what you receive — no new metrics invented."
+      },
+      {
+        "label": "DESIGN",
+        "oneLiner": "Wireframe + copy + flow — position before pixels.",
+        "detail": "UX wireframe, conversion copy, and inquiry flow mapped from audit findings."
+      },
+      {
+        "label": "BUILD",
+        "oneLiner": "Ship to Cloudflare Pages with integrations live.",
+        "detail": "Next.js static export to Cloudflare Pages. Integrations: Formspree, WhatsApp, PayPal.me, Turnstile, GA4, GTM."
+      },
+      {
+        "label": "OPTIMIZE",
+        "oneLiner": "Measure and iterate — keep what converts.",
+        "detail": "Post-launch measurement and iteration against the scored baseline."
+      }
+    ],
+    "domainsTitle": "The six audit domains",
+    "domainsSubheadline": "What we check, how we score (0–10 each, /60 total), and what you receive — from existing diagnose content.",
+    "deliverablesTitle": "What you receive",
+    "deliverables": [
+      "Audit report (scored matrix + findings)",
+      "Prioritized fix list (what's broken → what to fix first)",
+      "Implementation plan (sequence + effort)",
+      "30-minute findings walkthrough"
+    ],
+    "craftScoreTitle": "Craft Score — plain-language quality gate",
+    "craftScoreBody": "Pass = ready to scale traffic. Fail = fix before ad spend. No jargon, no hidden model.",
+    "ctaTitle": "Start with the audit",
+    "ctaBody": "Revenue Audit MAD 4,000–8,000 is the main entry point. Intelligence sample is a separate lead offer for ecosystem audiences.",
+    "ctaPrimary": "Request Revenue Audit — MAD 4,000–8,000",
+    "ctaSecondary": "Get a sample (Intelligence — coming soon)"
   }
 }
