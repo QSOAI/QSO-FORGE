@@ -577,5 +577,47 @@
     "ctaPrimary": "[NEEDS INPUT: FR/AR translation] Get a sample",
     "ctaSecondary": "Demander un Audit Revenu",
     "stagingNote": "[NEEDS INPUT: FR/AR translation + verified sample]"
+  },
+  "aiSystems": {
+    "heroBadge": "[NEEDS INPUT: FR/AR translation] Staging-blocked",
+    "heroHeadline": "[NEEDS INPUT: FR/AR translation] AI Systems — Orchestrated agents with validation",
+    "heroSubheadline": "[NEEDS INPUT: FR/AR translation]",
+    "rolesTitle": "[NEEDS INPUT: FR/AR translation] Agent roles",
+    "roles": [
+      {
+        "name": "Orchestrator",
+        "desc": "[NEEDS INPUT: FR/AR translation]"
+      },
+      {
+        "name": "Architect",
+        "desc": "[NEEDS INPUT: FR/AR translation]"
+      },
+      {
+        "name": "Critic",
+        "desc": "[NEEDS INPUT: FR/AR translation]"
+      },
+      {
+        "name": "Coach",
+        "desc": "[NEEDS INPUT: FR/AR translation]"
+      }
+    ],
+    "loopTitle": "[NEEDS INPUT: FR/AR translation] DGVR validation loop",
+    "loopBody": "[NEEDS INPUT: FR/AR translation] DGVR validation loop with LOCK_VIOLATION 5-cycle.",
+    "vectorsNote": "[NEEDS INPUT: FR/AR translation]",
+    "exampleTitle": "[NEEDS INPUT: FR/AR translation] Scored example",
+    "exampleBody": "[NEEDS INPUT: FR/AR translation + PEMS example+hash]",
+    "subsectionsTitle": "[NEEDS INPUT: FR/AR translation] Related",
+    "subsections": [
+      {
+        "name": "/prompt-os",
+        "desc": "[NEEDS INPUT: FR/AR translation] Coming soon — staging-blocked"
+      },
+      {
+        "name": "/ai-factory",
+        "desc": "[NEEDS INPUT: FR/AR translation] Coming soon — staging-blocked"
+      }
+    ],
+    "ctaPrimary": "Demander un Audit Revenu",
+    "ctaSecondary": "[NEEDS INPUT: FR/AR translation] See the Method"
   }
 }

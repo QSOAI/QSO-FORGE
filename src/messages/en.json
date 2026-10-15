@@ -577,5 +577,47 @@
     "ctaPrimary": "Get a sample",
     "ctaSecondary": "Request Revenue Audit — MAD 4,000–8,000",
     "stagingNote": "[NEEDS INPUT: Verified 15-startup sample] — Staging-blocked, do not release to prod until founder provides verified rows."
+  },
+  "aiSystems": {
+    "heroBadge": "Staging-blocked — Awaiting PEMS example+hash + Factory allow-list",
+    "heroHeadline": "AI Systems — Orchestrated agents with validation",
+    "heroSubheadline": "Architecture and roles. No live demo until verified example is supplied.",
+    "rolesTitle": "Agent roles",
+    "roles": [
+      {
+        "name": "Orchestrator",
+        "desc": "Routes work across agents and enforces the validation loop."
+      },
+      {
+        "name": "Architect",
+        "desc": "Designs the plan and structure before execution."
+      },
+      {
+        "name": "Critic",
+        "desc": "Challenges output against the 11 vectors."
+      },
+      {
+        "name": "Coach",
+        "desc": "Guides iteration toward the quality gate."
+      }
+    ],
+    "loopTitle": "DGVR validation loop",
+    "loopBody": "DGVR validation loop with LOCK_VIOLATION 5-cycle guard. Evaluation across 11 vectors V01–V11. SHA-256 RC1.1 locked 6 May 2026, 20-run.",
+    "vectorsNote": "11 vectors V01–V11 — SHA-256 RC1.1 locked 6 May 2026 — 20-run. No margin, revenue, or hypothesis figures published.",
+    "exampleTitle": "Scored example",
+    "exampleBody": "[NEEDS INPUT: PEMS example+hash] — One real scored example with hash once supplied. No hash invented.",
+    "subsectionsTitle": "Related",
+    "subsections": [
+      {
+        "name": "/prompt-os",
+        "desc": "Coming soon — staging-blocked"
+      },
+      {
+        "name": "/ai-factory",
+        "desc": "Coming soon — staging-blocked. No 8-server MCP 14-sec details until allow-list."
+      }
+    ],
+    "ctaPrimary": "Request Revenue Audit — MAD 4,000–8,000",
+    "ctaSecondary": "See the Method"
   }
 }
