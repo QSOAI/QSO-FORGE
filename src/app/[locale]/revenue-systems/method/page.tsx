@@ -153,7 +153,7 @@ export default async function MethodPage({ params }: MethodPageProps) {
             <Link href={`/${locale}/contact`} className="btn-primary w-full sm:w-auto">
               {mp.ctaPrimary}
             </Link>
-            <Link href={`/${locale}/contact`} className="btn-secondary w-full sm:w-auto">
+            <Link href={`/${locale}/intelligence`} className="btn-secondary w-full sm:w-auto">
               {mp.ctaSecondary}
             </Link>
           </div>
