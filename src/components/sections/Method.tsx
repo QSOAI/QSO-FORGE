@@ -8,36 +8,35 @@ interface MethodProps {
 
 export function Method({ messages }: MethodProps) {
   return (
-    <section className="section-padding" aria-labelledby="method-heading">
+    <section className="section-padding bg-ledger-dark" aria-labelledby="method-heading">
       <div className="container-custom">
         <div className="max-w-2xl mx-auto text-center mb-16">
-          <h2 id="method-heading" className="heading-lg text-primary-950">
+          <h2 id="method-heading" className="heading-lg text-ledger-light kinetic">
             {messages.headline}
           </h2>
-          <p className="mt-4 body-md text-primary-600">
+          <p className="mt-4 body-md text-ledger-muted">
             {messages.subheadline}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-ledger-border border border-ledger-border rounded-sm overflow-hidden">
           {messages.steps.map((step, index) => (
             <article
               key={step.label}
-              className="group relative p-6 bg-white border border-primary-200 rounded-lg hover:border-accent-300 hover:shadow-lg transition-all duration-300"
-              style={{ animationDelay: `${index * 100}ms` }}
+              className="group relative p-6 bg-ledger-dark hover:bg-ledger-light/[0.02] transition-colors duration-200"
+              style={{ animationDelay: `${index * 100}ms` } as any}
             >
               <div className="mb-4">
-                <span className="text-xs font-medium text-accent-600 uppercase tracking-wider">
+                <span className="text-xs font-mono font-medium tracking-wide uppercase text-ledger-accent">
                   {index + 1}. {step.label}
                 </span>
               </div>
-              <h3 className="heading-sm text-primary-950 mb-2">
+              <h3 className="heading-sm text-ledger-light mb-2 font-serif">
                 {step.label}
               </h3>
-              <p className="body-sm text-primary-600">
+              <p className="body-sm text-ledger-muted">
                 {step.description}
               </p>
-              <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary-100 group-hover:bg-accent-500 group-hover:h-1 transition-all duration-300" />
             </article>
           ))}
         </div>

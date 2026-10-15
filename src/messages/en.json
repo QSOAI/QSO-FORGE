@@ -27,10 +27,22 @@
       "headline": "Our Method",
       "subheadline": "Four steps. Measurable outcomes.",
       "steps": [
-        { "label": "DIAGNOSE", "description": "Revenue Audit — find the leakage, quantify the opportunity." },
-        { "label": "DESIGN", "description": "Premium Digital Experience — position, architect, design for conversion." },
-        { "label": "BUILD", "description": "Conversion Engine — build, integrate, launch with tracking live." },
-        { "label": "OPTIMIZE", "description": "30-day optimization → retainer — iterate from real data." }
+        {
+          "label": "DIAGNOSE",
+          "description": "Revenue Audit — find the leakage, quantify the opportunity."
+        },
+        {
+          "label": "DESIGN",
+          "description": "Premium Digital Experience — position, architect, design for conversion."
+        },
+        {
+          "label": "BUILD",
+          "description": "Conversion Engine — build, integrate, launch with tracking live."
+        },
+        {
+          "label": "OPTIMIZE",
+          "description": "30-day optimization → retainer — iterate from real data."
+        }
       ]
     },
     "services": {
@@ -77,11 +89,12 @@
       "yzland": {
         "title": "YZLand",
         "industry": "Experience & Tourism",
-        "tag": "Selected project / portfolio example",
-        "outcomeStatus": "Outcome data pending measurement",
-        "description": "Digital experience redesign for a premium desert tourism operator. Strategy, UX, booking flow, multilingual content architecture.",
-        "href": "/en/work/yzland"
-      }
+        "tag": "Client showcase",
+        "outcomeStatus": "Live in production",
+        "description": "Premium desert tourism experience live at https://yzlandvoyages.com. Trilingual EN/FR/AR with RTL, ~130 routes, booking inquiry flow, multilingual content architecture.",
+        "href": "https://yzlandvoyages.com/fr"
+      },
+      "viewLive": "View Live Project"
     },
     "whoWeWorkWith": {
       "headline": "Who We Work With",
@@ -102,8 +115,7 @@
         "Next.js / React",
         "TypeScript",
         "Tailwind CSS",
-        "Cloudflare (DNS, Analytics, Workers where justified)",
-        "Vercel / Netlify (deployment)",
+        "Cloudflare Pages (hosting)",
         "GA4 / GTM / Search Console"
       ]
     }
@@ -111,8 +123,7 @@
   "services": {
     "index": {
       "headline": "Our Services",
-      "subheadline": "Four tiers. One goal: digital revenue systems that work.",
-      "flashAuditNote": "Optional launch offer — configurable. Not part of core commercial identity."
+      "subheadline": "Four tiers. One goal: digital revenue systems that work."
     },
     "diagnose": {
       "headline": "Revenue & Conversion Audit",
@@ -183,7 +194,9 @@
         "Ongoing optimization retainer available"
       ],
       "cta": "Automate Revenue"
-    }
+    },
+    "learnMore": "Learn more",
+    "viewDetails": "View Details"
   },
   "work": {
     "index": {
@@ -194,14 +207,19 @@
     "yzland": {
       "headline": "YZLand",
       "tag": "Selected project / portfolio example",
-      "outcomeStatus": "Outcome data pending measurement",
+      "outcomeStatus": "Live in production",
       "industry": "Experience & Tourism",
-      "services": ["Revenue Audit", "Premium Digital Experience", "Conversion Engine"],
+      "services": [
+        "Revenue Audit",
+        "Premium Digital Experience",
+        "Conversion Engine"
+      ],
       "challenge": "Premium desert tourism operator needed a digital presence that matched the quality of their on-ground experience. Existing site was a brochure — no booking flow, no lead capture, no multilingual support for international guests.",
-      "approach": "Revenue Audit identified leakage in mobile UX, booking friction, and trust signals. Designed a premium multilingual experience (EN/FR/AR) with integrated booking inquiry flow, trust-building content architecture, and analytics foundation. Built on Next.js with static export for performance and security.",
-      "outcome": "Site launched. Booking inquiry flow live. Analytics baseline established. Full outcome measurement pending 90-day optimization cycle.",
+      "approach": "Revenue Audit identified leakage in mobile UX, booking friction, and trust signals. Designed a premium trilingual experience (EN/FR/AR with RTL) with integrated booking inquiry flow, multilingual content architecture, and analytics foundation.",
+      "outcome": "Live in production at https://yzlandvoyages.com. Trilingual EN/FR/AR with RTL. ~130 routes including Tours 7+, Guides 7+, Riads 3+, Destinations 10+, Itineraries 6+. Booking inquiry flow live. Integrations: Formspree, WhatsApp, PayPal.me, Turnstile, GA4, GTM. Approx 1468KiB, $0/mo hosting — engineering facts.",
       "permissionNote": "Published as a portfolio example. Client endorsement and outcome metrics pending explicit permission."
-    }
+    },
+    "viewProject": "View Project"
   },
   "about": {
     "headline": "About QSO FORGE",
@@ -212,10 +230,22 @@
       "description": "We follow a six-layer model internally: DIAGNOSE → POSITION → BUILD → CONVERT → AUTOMATE → OPTIMIZE. Client-facing, we simplify to four words: DIAGNOSE → DESIGN → BUILD → OPTIMIZE. The depth stays ours; the clarity stays yours."
     },
     "values": [
-      { "title": "Evidence over ego", "description": "No fabricated metrics. No guaranteed ROI claims. Every recommendation labeled: evidence, estimate, hypothesis, or unknown." },
-      { "title": "Strategy before code", "description": "Technology is supporting infrastructure. We diagnose first, prescribe second, build third." },
-      { "title": "Restrained by design", "description": "No unnecessary animations, dashboards, or complexity. Premium means precise." },
-      { "title": "Commercial honesty", "description": "We price transparently. We say no when the fit isn't right. We optimize for long-term trust." }
+      {
+        "title": "Evidence over ego",
+        "description": "No fabricated metrics. No guaranteed ROI claims. Every recommendation labeled: evidence, estimate, hypothesis, or unknown."
+      },
+      {
+        "title": "Strategy before code",
+        "description": "Technology is supporting infrastructure. We diagnose first, prescribe second, build third."
+      },
+      {
+        "title": "Restrained by design",
+        "description": "No unnecessary animations, dashboards, or complexity. Premium means precise."
+      },
+      {
+        "title": "Commercial honesty",
+        "description": "We price transparently. We say no when the fit isn't right. We optimize for long-term trust."
+      }
     ]
   },
   "contact": {
@@ -231,7 +261,7 @@
       "email": "Email",
       "emailPlaceholder": "you@company.com",
       "phone": "WhatsApp / Phone",
-      "phonePlaceholder": "+212 6 XX XX XX XX",
+      "phonePlaceholder": "+212 619-852591",
       "businessType": "Business Type",
       "businessTypePlaceholder": "e.g., Luxury riad, tour operator, premium spa",
       "objective": "Main Objective",
@@ -255,7 +285,7 @@
         "objectiveRequired": "Main objective is required"
       }
     },
-    "alternative": "Prefer email? Contact us at hello@qsoforge.com"
+    "alternative": "Prefer email? Contact us at quantumshiftorg@gmail.com — or WhatsApp +212 619-852591"
   },
   "audit": {
     "dimensions": {
@@ -285,5 +315,309 @@
       "whatToBuildFirst": "What to Build First",
       "expectedImpact": "Expected Impact"
     }
+  },
+  "methodPage": {
+    "heroHeadline": "Revenue Systems Method — Diagnose. Design. Build. Optimize.",
+    "heroSubheadline": "Four steps. Measurable outcomes. One line each, no fluff.",
+    "steps": [
+      {
+        "label": "DIAGNOSE",
+        "oneLiner": "Six-domain audit with scoring — find what leaks.",
+        "detail": "Six-domain audit (Website, Mobile, Conversion, SEO, Trust, Booking). Scored 0–10 each, /60 total. What we check, how we score, and what you receive — no new metrics invented."
+      },
+      {
+        "label": "DESIGN",
+        "oneLiner": "Wireframe + copy + flow — position before pixels.",
+        "detail": "UX wireframe, conversion copy, and inquiry flow mapped from audit findings."
+      },
+      {
+        "label": "BUILD",
+        "oneLiner": "Ship to Cloudflare Pages with integrations live.",
+        "detail": "Next.js static export to Cloudflare Pages. Integrations: Formspree, WhatsApp, PayPal.me, Turnstile, GA4, GTM."
+      },
+      {
+        "label": "OPTIMIZE",
+        "oneLiner": "Measure and iterate — keep what converts.",
+        "detail": "Post-launch measurement and iteration against the scored baseline."
+      }
+    ],
+    "domainsTitle": "The six audit domains",
+    "domainsSubheadline": "What we check, how we score (0–10 each, /60 total), and what you receive — from existing diagnose content.",
+    "deliverablesTitle": "What you receive",
+    "deliverables": [
+      "Audit report (scored matrix + findings)",
+      "Prioritized fix list (what's broken → what to fix first)",
+      "Implementation plan (sequence + effort)",
+      "30-minute findings walkthrough"
+    ],
+    "craftScoreTitle": "Craft Score — plain-language quality gate",
+    "craftScoreBody": "Pass = ready to scale traffic. Fail = fix before ad spend. No jargon, no hidden model.",
+    "ctaTitle": "Start with the audit",
+    "ctaBody": "Revenue Audit MAD 4,000–8,000 is the main entry point. Intelligence sample is a separate lead offer for ecosystem audiences.",
+    "ctaPrimary": "Request Revenue Audit — MAD 4,000–8,000",
+    "ctaSecondary": "Get a sample (Intelligence — coming soon)"
+  },
+  "intelligence": {
+    "heroHeadline": "Intelligence — Verified shortlists of Moroccan AI startups",
+    "heroBadge": "Phase 0 — Spreadsheet — Company-level only — Manual verification — Law 09-08 pending counsel",
+    "heroSubheadline": "Lead offer for ecosystem audiences, not the core product. Audit remains the main CTA.",
+    "notList": [
+      "Not a database",
+      "No entity store",
+      "No verification queue",
+      "No hosting decision until Phase 2 gate"
+    ],
+    "notTitle": "What it is not",
+    "tableTitle": "Phase 0 sample — 15 startups, company-level only",
+    "tableNote": "Company-level only to reduce Law 09-08 exposure — Confirm with counsel. No Team column, no named founders for Phase 0.",
+    "columns": [
+      "Startup",
+      "Sector",
+      "City",
+      "Product",
+      "Traction Observable",
+      "Funding Public",
+      "Source URL",
+      "Last Verified",
+      "Fit Note",
+      "Verification Flag"
+    ],
+    "rows": [
+      {
+        "startup": "[NEEDS INPUT: Startup 01]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 02]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 03]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 04]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 05]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 06]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 07]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 08]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 09]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 10]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 11]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 12]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 13]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 14]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      },
+      {
+        "startup": "[NEEDS INPUT: Startup 15]",
+        "sector": "[NEEDS INPUT: Sector]",
+        "city": "[NEEDS INPUT: City]",
+        "product": "[NEEDS INPUT: Product]",
+        "traction": "[NEEDS INPUT: Traction observable]",
+        "funding": "[NEEDS INPUT: Funding public]",
+        "sourceUrl": "[NEEDS INPUT: Source URL 1 + Source URL 2]",
+        "lastVerified": "[NEEDS INPUT: YYYY-MM-DD]",
+        "fitNote": "[NEEDS INPUT: Fit note]",
+        "verificationFlag": "Uncertain"
+      }
+    ],
+    "verificationTitle": "Verification policy",
+    "verificationBody": "Public info only, at least two sources per row, with date flag. Flag each row Verified / Uncertain / Stale.",
+    "salesTitle": "Sales path",
+    "salesBody": "Free sample (15 startups) → Paid pilot (15–25 verified) → Reorder. Gate: at least 2 reorders within 90 days — free samples do not count. Time-boxed 90 days from first paid brief. Build store only after gate.",
+    "buyersTitle": "Buyer segments",
+    "buyersBody": "MCP-type ecosystem builders (MCP Ventures for Africa connects IA startups Maroc/Afrique to enterprises, investisseurs, institutions — clients, financement, POC, programmes, adoption), accelerators, seed funds, corporate innovation, angel networks.",
+    "economicsTitle": "Economics",
+    "economicsBody": "Analyst 12–16h per sector. Cost = hours × rate. Sell MAD 15k–30k per brief [ASSUMED pending pilot — track actual first 3 briefs].",
+    "pricingLine": "Founding-client pricing — talk to us.",
+    "aiRole": "AI drafts and ingests, analyst verifies and signs off. Governed by PEMS 11 vectors SHA-256 RC1.1. AI Factory powers layer.",
+    "ctaPrimary": "Get a sample",
+    "ctaSecondary": "Request Revenue Audit — MAD 4,000–8,000",
+    "stagingNote": "[NEEDS INPUT: Verified 15-startup sample] — Staging-blocked, do not release to prod until founder provides verified rows."
+  },
+  "aiSystems": {
+    "heroBadge": "Staging-blocked — Awaiting PEMS example+hash + Factory allow-list",
+    "heroHeadline": "AI Systems — Orchestrated agents with validation",
+    "heroSubheadline": "Architecture and roles. No live demo until verified example is supplied.",
+    "rolesTitle": "Agent roles",
+    "roles": [
+      {
+        "name": "Orchestrator",
+        "desc": "Routes work across agents and enforces the validation loop."
+      },
+      {
+        "name": "Architect",
+        "desc": "Designs the plan and structure before execution."
+      },
+      {
+        "name": "Critic",
+        "desc": "Challenges output against the 11 vectors."
+      },
+      {
+        "name": "Coach",
+        "desc": "Guides iteration toward the quality gate."
+      }
+    ],
+    "loopTitle": "DGVR validation loop",
+    "loopBody": "DGVR validation loop with LOCK_VIOLATION 5-cycle guard. Evaluation across 11 vectors V01–V11. SHA-256 RC1.1 locked 6 May 2026, 20-run.",
+    "vectorsNote": "11 vectors V01–V11 — SHA-256 RC1.1 locked 6 May 2026 — 20-run. No margin, revenue, or hypothesis figures published.",
+    "exampleTitle": "Scored example",
+    "exampleBody": "[NEEDS INPUT: PEMS example+hash] — One real scored example with hash once supplied. No hash invented.",
+    "subsectionsTitle": "Related",
+    "subsections": [
+      {
+        "name": "/prompt-os",
+        "desc": "Coming soon — staging-blocked"
+      },
+      {
+        "name": "/ai-factory",
+        "desc": "Coming soon — staging-blocked. No 8-server MCP 14-sec details until allow-list."
+      }
+    ],
+    "ctaPrimary": "Request Revenue Audit — MAD 4,000–8,000",
+    "ctaSecondary": "See the Method"
   }
 }

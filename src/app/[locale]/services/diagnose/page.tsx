@@ -29,17 +29,17 @@ export default async function DiagnosePage({ params }: ServicePageProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="section-padding bg-primary-50" aria-labelledby="diagnose-heading">
+      <section className="section-padding bg-ledger-dark" aria-labelledby="diagnose-heading">
         <div className="container-custom">
           <div className="max-w-2xl mx-auto text-center mb-16">
-            <span className="text-xs font-medium text-accent-600 uppercase tracking-wider">01 — DIAGNOSE</span>
-            <h1 id="diagnose-heading" className="mt-2 heading-lg text-primary-950">
+            <span className="text-xs font-medium text-ledger-accent uppercase tracking-wider">01 — DIAGNOSE</span>
+            <h1 id="diagnose-heading" className="mt-2 heading-lg text-ledger-light">
               {svc.headline}
             </h1>
-            <p className="mt-4 body-lg text-primary-600">
+            <p className="mt-4 body-lg text-ledger-muted">
               {svc.subheadline}
             </p>
-            <p className="mt-6 text-xl font-medium text-primary-900">
+            <p className="mt-6 text-xl font-medium text-ledger-light">
               {svc.price}
             </p>
           </div>
@@ -48,32 +48,32 @@ export default async function DiagnosePage({ params }: ServicePageProps) {
 
       <section className="section-padding" aria-labelledby="deliverables-heading">
         <div className="container-custom">
-          <h2 id="deliverables-heading" className="heading-md text-primary-950 mb-8">What You Receive</h2>
+          <h2 id="deliverables-heading" className="heading-md text-ledger-light mb-8">What You Receive</h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {svc.deliverables.map((item: string, i: number) => (
-              <li key={i} className="flex gap-4 p-6 bg-white border border-primary-200 rounded-lg animate-slide-up" style={{ animationDelay: `${i * 80}ms` }}>
-                <svg className="w-6 h-6 text-accent-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <li key={i} className="flex gap-4 p-6 bg-ledger-dark border border-ledger-border rounded-lg animate-slide-up" style={{ animationDelay: `${i * 80}ms` }}>
+                <svg className="w-6 h-6 text-ledger-accent flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="body-md text-primary-700">{item}</span>
+                <span className="body-md text-ledger-muted">{item}</span>
               </li>
             ))}
           </ul>
         </div>
       </section>
 
-      <section className="section-padding bg-primary-50" aria-labelledby="process-heading">
+      <section className="section-padding bg-ledger-dark" aria-labelledby="process-heading">
         <div className="container-custom">
-          <h2 id="process-heading" className="heading-md text-primary-950 text-center mb-12">Our Process</h2>
+          <h2 id="process-heading" className="heading-md text-ledger-light text-center mb-12">Our Process</h2>
           <ol className="max-w-3xl mx-auto space-y-6">
             {svc.process.map((step: string, i: number) => (
               <li key={i} className="flex gap-4 animate-slide-up" style={{ animationDelay: `${i * 100}ms` }}>
-                <span className="flex-shrink-0 w-10 h-10 rounded-full bg-accent-600 text-white flex items-center justify-center font-medium text-lg">
+                <span className="flex-shrink-0 w-10 h-10 rounded-full bg-ledger-accent text-white flex items-center justify-center font-medium text-lg">
                   {i + 1}
                 </span>
                 <div className="pt-1">
-                  <h3 className="heading-sm text-primary-950">Step {i + 1}</h3>
-                  <p className="body-md text-primary-600 mt-1">{step}</p>
+                  <h3 className="heading-sm text-ledger-light kinetic font-serif">Step {i + 1}</h3>
+                  <p className="body-md text-ledger-muted mt-1">{step}</p>
                 </div>
               </li>
             ))}
@@ -81,12 +81,12 @@ export default async function DiagnosePage({ params }: ServicePageProps) {
         </div>
       </section>
 
-      <section className="section-padding bg-amber-50 border-y border-amber-200" aria-labelledby="flash-heading">
+      <section className="section-padding bg-ledger-evidence/5 border-y border-ledger-evidence/20" aria-labelledby="flash-heading">
         <div className="container-custom max-w-3xl">
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 p-6 bg-white border border-amber-200 rounded-lg">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 p-6 bg-ledger-dark border border-ledger-evidence/20 rounded-lg">
             <div>
-              <h2 id="flash-heading" className="heading-sm text-primary-950">{flash.label}</h2>
-              <p className="mt-2 body-md text-primary-600">{flash.description}</p>
+              <h2 id="flash-heading" className="heading-sm text-ledger-light kinetic font-serif">{flash.label}</h2>
+              <p className="mt-2 body-md text-ledger-muted">{flash.description}</p>
             </div>
             <Link href={`/${locale}/contact`} className="btn-primary whitespace-nowrap mt-4 md:mt-0">
               {flash.cta}
@@ -95,16 +95,16 @@ export default async function DiagnosePage({ params }: ServicePageProps) {
         </div>
       </section>
 
-      <section className="section-padding bg-primary-950" aria-labelledby="cta-heading">
+      <section className="section-padding bg-ledger-dark" aria-labelledby="cta-heading">
         <div className="container-custom text-center">
           <h2 id="cta-heading" className="heading-lg text-white">
             Ready to find what's leaking?
           </h2>
-          <p className="mt-4 body-lg text-primary-300 max-w-2xl mx-auto">
+          <p className="mt-4 body-lg text-ledger-muted max-w-2xl mx-auto">
             Request a Revenue Audit. We'll score six dimensions, identify the leakage, and deliver a prioritized action plan.
           </p>
           <div className="mt-10">
-            <Link href={`/${locale}/contact`} className="btn-primary bg-white text-primary-900 hover:bg-primary-100">
+            <Link href={`/${locale}/contact`} className="btn-primary bg-ledger-dark text-ledger-light hover:bg-primary-100">
               {svc.cta}
             </Link>
           </div>

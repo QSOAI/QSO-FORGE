@@ -20,12 +20,11 @@ export function OrganizationSchema() {
     logo: 'https://qsoforge.com/logo.png',
     sameAs: [
       'https://github.com/QSOAI',
-      'https://linkedin.com/company/qsoforge',
-      'https://twitter.com/qsoforge',
     ],
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+212-6-XX-XX-XX-XX',
+      telephone: '+212619852591',
+      email: 'quantumshiftorg@gmail.com',
       contactType: 'customer service',
       availableLanguage: ['English', 'French', 'Arabic'],
     },
@@ -106,7 +105,8 @@ export function LocalBusinessSchema() {
     name: 'QSO FORGE',
     description: 'Digital revenue systems for businesses that have outgrown brochure websites.',
     url: 'https://qsoforge.com',
-    telephone: '+212-6-XX-XX-XX-XX',
+    telephone: '+212619852591',
+    email: 'quantumshiftorg@gmail.com',
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'MA',
