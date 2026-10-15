@@ -51,11 +51,11 @@ export function Header({ locale, messages }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-primary-200">
+    <header className="sticky top-0 z-50 w-full bg-ledger-dark/95 backdrop-blur-sm border-b border-ledger-border">
       <nav className="container-custom" aria-label="Main navigation">
         <div className="flex h-16 items-center justify-between">
-          <Link href={`/${locale}`} className="flex items-center gap-2 text-primary-900 hover:opacity-80 transition-opacity" aria-label={`${messages.companyName} — Home`}>
-            <span className="text-xl font-display font-medium tracking-tight">{messages.companyName}</span>
+          <Link href={`/${locale}`} className="flex items-center gap-2 text-ledger-light hover:opacity-80 transition-opacity" aria-label={`${messages.companyName} — Home`}>
+            <span className="text-xl font-serif font-medium tracking-tight">{messages.companyName}</span>
           </Link>
 
           <div className="hidden md:flex md:items-center md:gap-8">
@@ -63,7 +63,7 @@ export function Header({ locale, messages }: HeaderProps) {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-primary-600 hover:text-primary-900 transition-colors duration-200"
+                className="text-sm font-mono font-medium tracking-wide text-ledger-muted hover:text-ledger-light transition-colors duration-200"
               >
                 {item.label}
               </Link>
@@ -74,7 +74,7 @@ export function Header({ locale, messages }: HeaderProps) {
             <div className="relative" role="combobox" aria-label={messages.language} aria-expanded={langMenuOpen} aria-haspopup="listbox">
               <button
                 type="button"
-                className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-primary-700 hover:text-primary-900 rounded-md transition-colors"
+                className="flex items-center gap-1.5 px-3 py-2 text-sm font-mono font-medium tracking-wide text-ledger-muted hover:text-ledger-light rounded-sm border border-transparent hover:border-ledger-border transition-colors"
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                 aria-expanded={langMenuOpen}
               >
@@ -82,16 +82,16 @@ export function Header({ locale, messages }: HeaderProps) {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </button>
               {langMenuOpen && (
-                <ul className="absolute right-0 mt-1 w-36 bg-white border border-primary-200 rounded-md shadow-lg py-1" role="listbox">
+                <ul className="absolute right-0 mt-1 w-36 bg-ledger-dark border border-ledger-border rounded-sm shadow-lg py-1" role="listbox">
                   {locales.map((l) => (
                     <li key={l} role="option" aria-selected={l === locale}>
                       <a
                         href={getLocalePath(l)}
-                        className={`flex items-center gap-2 px-3 py-2 text-sm ${l === locale ? 'bg-primary-50 text-accent-600' : 'text-primary-700 hover:bg-primary-50'}`}
+                        className={`flex items-center gap-2 px-3 py-2 text-sm font-mono ${l === locale ? 'bg-ledger-accent/10 text-ledger-accent' : 'text-ledger-muted hover:bg-ledger-light/5 hover:text-ledger-light'}`}
                         onClick={() => setLangMenuOpen(false)}
                       >
                         {localeLabels[l]}
-                        {l === locale && <svg className="w-4 h-4 text-accent-600 ml-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>}
+                        {l === locale && <svg className="w-4 h-4 text-ledger-accent ml-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>}
                       </a>
                     </li>
                   ))}
@@ -109,7 +109,7 @@ export function Header({ locale, messages }: HeaderProps) {
 
           <button
             type="button"
-            className="md:hidden p-2 text-primary-700 hover:text-primary-900 rounded-md transition-colors"
+            className="md:hidden p-2 text-ledger-muted hover:text-ledger-light rounded-sm border border-transparent hover:border-ledger-border transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-menu"
@@ -126,20 +126,20 @@ export function Header({ locale, messages }: HeaderProps) {
         </div>
 
         {mobileMenuOpen && (
-          <div id="mobile-menu" className="md:hidden py-4 border-t border-primary-200 animate-slide-up">
+          <div id="mobile-menu" className="md:hidden py-4 border-t border-ledger-border animate-slide-up">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="px-3 py-2 text-base font-medium rounded-md text-primary-600 hover:bg-primary-50"
+                  className="px-3 py-2 text-base font-mono font-medium tracking-wide rounded-sm text-ledger-muted hover:bg-ledger-light/5 hover:text-ledger-light"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
               ))}
-              <div className="pt-4 border-t border-primary-200 flex items-center justify-between">
-                <span className="text-sm font-medium text-primary-700">{messages.language}</span>
+              <div className="pt-4 border-t border-ledger-border flex items-center justify-between">
+                <span className="text-sm font-mono font-medium tracking-wide text-ledger-muted">{messages.language}</span>
                 <select
                   value={locale}
                   onChange={(e) => {

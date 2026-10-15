@@ -27,10 +27,22 @@
       "headline": "Our Method",
       "subheadline": "Four steps. Measurable outcomes.",
       "steps": [
-        { "label": "DIAGNOSE", "description": "Revenue Audit — find the leakage, quantify the opportunity." },
-        { "label": "DESIGN", "description": "Premium Digital Experience — position, architect, design for conversion." },
-        { "label": "BUILD", "description": "Conversion Engine — build, integrate, launch with tracking live." },
-        { "label": "OPTIMIZE", "description": "30-day optimization → retainer — iterate from real data." }
+        {
+          "label": "DIAGNOSE",
+          "description": "Revenue Audit — find the leakage, quantify the opportunity."
+        },
+        {
+          "label": "DESIGN",
+          "description": "Premium Digital Experience — position, architect, design for conversion."
+        },
+        {
+          "label": "BUILD",
+          "description": "Conversion Engine — build, integrate, launch with tracking live."
+        },
+        {
+          "label": "OPTIMIZE",
+          "description": "30-day optimization → retainer — iterate from real data."
+        }
       ]
     },
     "services": {
@@ -77,11 +89,12 @@
       "yzland": {
         "title": "YZLand",
         "industry": "Experience & Tourism",
-        "tag": "Selected project / portfolio example",
-        "outcomeStatus": "Outcome data pending measurement",
-        "description": "Digital experience redesign for a premium desert tourism operator. Strategy, UX, booking flow, multilingual content architecture.",
-        "href": "/en/work/yzland"
-      }
+        "tag": "Client showcase",
+        "outcomeStatus": "Live in production",
+        "description": "Premium desert tourism experience live at https://yzlandvoyages.com. Trilingual EN/FR/AR with RTL, ~130 routes, booking inquiry flow, multilingual content architecture.",
+        "href": "https://yzlandvoyages.com/fr"
+      },
+      "viewLive": "View Live Project"
     },
     "whoWeWorkWith": {
       "headline": "Who We Work With",
@@ -102,8 +115,7 @@
         "Next.js / React",
         "TypeScript",
         "Tailwind CSS",
-        "Cloudflare (DNS, Analytics, Workers where justified)",
-        "Vercel / Netlify (deployment)",
+        "Cloudflare Pages (hosting)",
         "GA4 / GTM / Search Console"
       ]
     }
@@ -111,8 +123,7 @@
   "services": {
     "index": {
       "headline": "Our Services",
-      "subheadline": "Four tiers. One goal: digital revenue systems that work.",
-      "flashAuditNote": "Optional launch offer — configurable. Not part of core commercial identity."
+      "subheadline": "Four tiers. One goal: digital revenue systems that work."
     },
     "diagnose": {
       "headline": "Revenue & Conversion Audit",
@@ -183,7 +194,9 @@
         "Ongoing optimization retainer available"
       ],
       "cta": "Automate Revenue"
-    }
+    },
+    "learnMore": "Learn more",
+    "viewDetails": "View Details"
   },
   "work": {
     "index": {
@@ -194,14 +207,19 @@
     "yzland": {
       "headline": "YZLand",
       "tag": "Selected project / portfolio example",
-      "outcomeStatus": "Outcome data pending measurement",
+      "outcomeStatus": "Live in production",
       "industry": "Experience & Tourism",
-      "services": ["Revenue Audit", "Premium Digital Experience", "Conversion Engine"],
+      "services": [
+        "Revenue Audit",
+        "Premium Digital Experience",
+        "Conversion Engine"
+      ],
       "challenge": "Premium desert tourism operator needed a digital presence that matched the quality of their on-ground experience. Existing site was a brochure — no booking flow, no lead capture, no multilingual support for international guests.",
-      "approach": "Revenue Audit identified leakage in mobile UX, booking friction, and trust signals. Designed a premium multilingual experience (EN/FR/AR) with integrated booking inquiry flow, trust-building content architecture, and analytics foundation. Built on Next.js with static export for performance and security.",
-      "outcome": "Site launched. Booking inquiry flow live. Analytics baseline established. Full outcome measurement pending 90-day optimization cycle.",
+      "approach": "Revenue Audit identified leakage in mobile UX, booking friction, and trust signals. Designed a premium trilingual experience (EN/FR/AR with RTL) with integrated booking inquiry flow, multilingual content architecture, and analytics foundation.",
+      "outcome": "Live in production at https://yzlandvoyages.com. Trilingual EN/FR/AR with RTL. ~130 routes including Tours 7+, Guides 7+, Riads 3+, Destinations 10+, Itineraries 6+. Booking inquiry flow live. Integrations: Formspree, WhatsApp, PayPal.me, Turnstile, GA4, GTM. Approx 1468KiB, $0/mo hosting — engineering facts.",
       "permissionNote": "Published as a portfolio example. Client endorsement and outcome metrics pending explicit permission."
-    }
+    },
+    "viewProject": "View Project"
   },
   "about": {
     "headline": "About QSO FORGE",
@@ -212,10 +230,22 @@
       "description": "We follow a six-layer model internally: DIAGNOSE → POSITION → BUILD → CONVERT → AUTOMATE → OPTIMIZE. Client-facing, we simplify to four words: DIAGNOSE → DESIGN → BUILD → OPTIMIZE. The depth stays ours; the clarity stays yours."
     },
     "values": [
-      { "title": "Evidence over ego", "description": "No fabricated metrics. No guaranteed ROI claims. Every recommendation labeled: evidence, estimate, hypothesis, or unknown." },
-      { "title": "Strategy before code", "description": "Technology is supporting infrastructure. We diagnose first, prescribe second, build third." },
-      { "title": "Restrained by design", "description": "No unnecessary animations, dashboards, or complexity. Premium means precise." },
-      { "title": "Commercial honesty", "description": "We price transparently. We say no when the fit isn't right. We optimize for long-term trust." }
+      {
+        "title": "Evidence over ego",
+        "description": "No fabricated metrics. No guaranteed ROI claims. Every recommendation labeled: evidence, estimate, hypothesis, or unknown."
+      },
+      {
+        "title": "Strategy before code",
+        "description": "Technology is supporting infrastructure. We diagnose first, prescribe second, build third."
+      },
+      {
+        "title": "Restrained by design",
+        "description": "No unnecessary animations, dashboards, or complexity. Premium means precise."
+      },
+      {
+        "title": "Commercial honesty",
+        "description": "We price transparently. We say no when the fit isn't right. We optimize for long-term trust."
+      }
     ]
   },
   "contact": {
@@ -231,7 +261,7 @@
       "email": "Email",
       "emailPlaceholder": "you@company.com",
       "phone": "WhatsApp / Phone",
-      "phonePlaceholder": "+212 6 XX XX XX XX",
+      "phonePlaceholder": "+212 619-852591",
       "businessType": "Business Type",
       "businessTypePlaceholder": "e.g., Luxury riad, tour operator, premium spa",
       "objective": "Main Objective",
@@ -255,7 +285,7 @@
         "objectiveRequired": "Main objective is required"
       }
     },
-    "alternative": "Prefer email? Contact us at hello@qsoforge.com"
+    "alternative": "Prefer email? Contact us at quantumshiftorg@gmail.com — or WhatsApp +212 619-852591"
   },
   "audit": {
     "dimensions": {

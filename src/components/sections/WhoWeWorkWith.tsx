@@ -9,13 +9,13 @@ interface WhoWeWorkWithProps {
 
 export function WhoWeWorkWith({ messages }: WhoWeWorkWithProps) {
   return (
-    <section className="section-padding bg-primary-50" aria-labelledby="whoweworkwith-heading">
+    <section className="section-padding bg-ledger-dark border-y border-ledger-border" aria-labelledby="whoweworkwith-heading">
       <div className="container-custom">
         <div className="max-w-2xl mx-auto text-center mb-16">
-          <h2 id="whoweworkwith-heading" className="heading-lg text-primary-950">
+          <h2 id="whoweworkwith-heading" className="heading-lg text-ledger-light kinetic">
             {messages.headline}
           </h2>
-          <p className="mt-4 body-md text-primary-600">
+          <p className="mt-4 body-md text-ledger-muted">
             {messages.subheadline}
           </p>
         </div>
@@ -24,15 +24,15 @@ export function WhoWeWorkWith({ messages }: WhoWeWorkWithProps) {
           {messages.sectors.map((sector, index) => (
             <div
               key={sector}
-              className="text-center p-6 bg-white border border-primary-200 rounded-lg hover:border-accent-300 hover:shadow-md transition-all duration-200 animate-slide-up"
+              className="text-center p-6 bg-ledger-dark border border-ledger-border rounded-sm hover:border-ledger-light/20 transition-all duration-200 animate-slide-up"
               style={{ animationDelay: `${index * 80}ms` }}
             >
-              <h3 className="heading-sm text-primary-950">{sector}</h3>
+              <h3 className="heading-sm text-ledger-light">{sector}</h3>
             </div>
           ))}
         </div>
 
-        <p className="mt-10 text-center text-sm text-primary-500">
+        <p className="mt-10 text-center text-sm text-ledger-muted">
           {messages.note}
         </p>
       </div>

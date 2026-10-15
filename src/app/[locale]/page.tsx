@@ -22,8 +22,25 @@ export async function generateMetadata({ params }: HomepageProps): Promise<Metad
     title: messages.common.heroHeadline,
     description: messages.common.heroSubheadline,
     openGraph: {
+      type: "website",
       title: messages.common.heroHeadline,
       description: messages.common.heroSubheadline,
+      url: `/${locale}`,
+      siteName: "QSO FORGE",
+      images: [
+        {
+          url: "/images/hero-qso-forge.jpg",
+          width: 1280,
+          height: 720,
+          alt: "QSO FORGE — precision-engineered revenue systems",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: messages.common.heroHeadline,
+      description: messages.common.heroSubheadline,
+      images: ["/images/hero-qso-forge.jpg"],
     },
   };
 }
@@ -37,7 +54,7 @@ export default async function Homepage({ params }: HomepageProps) {
       <Hero locale={locale} messages={messages.common} />
       <Problem messages={messages.homepage.problem} />
       <Method messages={messages.homepage.method} />
-      <ServicesOverview locale={locale} messages={{ ...messages.homepage.services, flashAuditNote: (messages.services as any).index.flashAuditNote }} />
+      <ServicesOverview locale={locale} messages={{ ...messages.homepage.services, learnMore: (messages.services as any).learnMore }} />
       <CaseStudy locale={locale} messages={messages.homepage.caseStudy} />
       <WhoWeWorkWith messages={messages.homepage.whoWeWorkWith} />
       <Technology messages={messages.homepage.technology} />

@@ -104,34 +104,34 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
 
   return (
     <div className="min-h-screen">
-      <section className="section-padding bg-primary-50" aria-labelledby="contact-heading">
+      <section className="section-padding bg-ledger-dark" aria-labelledby="contact-heading">
         <div className="container-custom">
           <div className="max-w-2xl mx-auto text-center mb-12">
-            <h1 id="contact-heading" className="heading-lg text-primary-950">
+            <h1 id="contact-heading" className="heading-lg text-ledger-light kinetic">
               {messages.contact.headline}
             </h1>
-            <p className="mt-4 body-md text-primary-600">
+            <p className="mt-4 body-md text-ledger-muted">
               {messages.contact.subheadline}
             </p>
           </div>
 
           <div className="max-w-2xl mx-auto">
             {status === 'success' && (
-              <div className="mb-8 p-6 bg-green-50 border border-green-200 rounded-lg text-center animate-fade-in" role="alert">
-                <svg className="w-12 h-12 mx-auto text-green-600 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <div className="mb-8 p-6 bg-ledger-accent/10 border border-ledger-accent/20 rounded-lg text-center animate-fade-in" role="alert">
+                <svg className="w-12 h-12 mx-auto text-ledger-accent mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <p className="text-green-800 font-medium">{form.success}</p>
-                <p className="mt-2 text-green-700 text-sm">A reference ID has been logged. We'll be in touch within 24 hours.</p>
+                <p className="text-ledger-light font-medium">{form.success}</p>
+                <p className="mt-2 text-ledger-muted text-sm">A reference ID has been logged. We'll be in touch within 24 hours.</p>
               </div>
             )}
 
             {status === 'error' && (
-              <div className="mb-8 p-6 bg-red-50 border border-red-200 rounded-lg text-center animate-fade-in" role="alert">
-                <svg className="w-12 h-12 mx-auto text-red-600 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <div className="mb-8 p-6 bg-red-950/20 border border-red-900/30 rounded-lg text-center animate-fade-in" role="alert">
+                <svg className="w-12 h-12 mx-auto text-red-400 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
-                <p className="text-red-800 font-medium">{form.error}</p>
+                <p className="text-ledger-light font-medium">{form.error}</p>
               </div>
             )}
 
@@ -139,7 +139,7 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="form-group">
                   <label htmlFor="name" className="label-field">
-                    {form.name} <span className="text-accent-600" aria-hidden="true">*</span>
+                    {form.name} <span className="text-ledger-accent" aria-hidden="true">*</span>
                   </label>
                   <input
                     type="text"
@@ -154,13 +154,13 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
                     disabled={status === 'submitting'}
                   />
                   {errors.name && (
-                    <p id="name-error" className="mt-1.5 text-sm text-red-600" role="alert">{errors.name}</p>
+                    <p id="name-error" className="mt-1.5 text-sm text-red-400" role="alert">{errors.name}</p>
                   )}
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="company" className="label-field">
-                    {form.company} <span className="text-accent-600" aria-hidden="true">*</span>
+                    {form.company} <span className="text-ledger-accent" aria-hidden="true">*</span>
                   </label>
                   <input
                     type="text"
@@ -175,14 +175,14 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
                     disabled={status === 'submitting'}
                   />
                   {errors.company && (
-                    <p id="company-error" className="mt-1.5 text-sm text-red-600" role="alert">{errors.company}</p>
+                    <p id="company-error" className="mt-1.5 text-sm text-red-400" role="alert">{errors.company}</p>
                   )}
                 </div>
               </div>
 
               <div className="form-group">
                 <label htmlFor="website" className="label-field">
-                  {form.website} <span className="text-accent-600" aria-hidden="true">*</span>
+                  {form.website} <span className="text-ledger-accent" aria-hidden="true">*</span>
                 </label>
                 <input
                   type="url"
@@ -197,14 +197,14 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
                   disabled={status === 'submitting'}
                 />
                 {errors.website && (
-                  <p id="website-error" className="mt-1.5 text-sm text-red-600" role="alert">{errors.website}</p>
+                  <p id="website-error" className="mt-1.5 text-sm text-red-400" role="alert">{errors.website}</p>
                 )}
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="form-group">
                   <label htmlFor="email" className="label-field">
-                    {form.email} <span className="text-accent-600" aria-hidden="true">*</span>
+                    {form.email} <span className="text-ledger-accent" aria-hidden="true">*</span>
                   </label>
                   <input
                     type="email"
@@ -219,13 +219,13 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
                     disabled={status === 'submitting'}
                   />
                   {errors.email && (
-                    <p id="email-error" className="mt-1.5 text-sm text-red-600" role="alert">{errors.email}</p>
+                    <p id="email-error" className="mt-1.5 text-sm text-red-400" role="alert">{errors.email}</p>
                   )}
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="phone" className="label-field">
-                    {form.phone} <span className="text-accent-600" aria-hidden="true">*</span>
+                    {form.phone} <span className="text-ledger-accent" aria-hidden="true">*</span>
                   </label>
                   <input
                     type="tel"
@@ -240,7 +240,7 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
                     disabled={status === 'submitting'}
                   />
                   {errors.phone && (
-                    <p id="phone-error" className="mt-1.5 text-sm text-red-600" role="alert">{errors.phone}</p>
+                    <p id="phone-error" className="mt-1.5 text-sm text-red-400" role="alert">{errors.phone}</p>
                   )}
                 </div>
               </div>
@@ -248,7 +248,7 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="form-group">
                   <label htmlFor="businessType" className="label-field">
-                    {form.businessType} <span className="text-accent-600" aria-hidden="true">*</span>
+                    {form.businessType} <span className="text-ledger-accent" aria-hidden="true">*</span>
                   </label>
                   <input
                     type="text"
@@ -263,13 +263,13 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
                     disabled={status === 'submitting'}
                   />
                   {errors.businessType && (
-                    <p id="businessType-error" className="mt-1.5 text-sm text-red-600" role="alert">{errors.businessType}</p>
+                    <p id="businessType-error" className="mt-1.5 text-sm text-red-400" role="alert">{errors.businessType}</p>
                   )}
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="objective" className="label-field">
-                    {form.objective} <span className="text-accent-600" aria-hidden="true">*</span>
+                    {form.objective} <span className="text-ledger-accent" aria-hidden="true">*</span>
                   </label>
                   <input
                     type="text"
@@ -284,7 +284,7 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
                     disabled={status === 'submitting'}
                   />
                   {errors.objective && (
-                    <p id="objective-error" className="mt-1.5 text-sm text-red-600" role="alert">{errors.objective}</p>
+                    <p id="objective-error" className="mt-1.5 text-sm text-red-400" role="alert">{errors.objective}</p>
                   )}
                 </div>
               </div>
@@ -325,9 +325,22 @@ export function ContactForm({ locale, messages }: ContactFormProps) {
               </button>
             </form>
 
-            <p className="mt-8 text-center text-sm text-primary-500">
-              {messages.contact.alternative}
-            </p>
+            <div className="mt-8 text-center text-sm text-ledger-muted space-y-2">
+              <p>
+                <a href="mailto:quantumshiftorg@gmail.com" className="text-ledger-light hover:text-ledger-accent underline underline-offset-2">
+                  quantumshiftorg@gmail.com
+                </a>
+                <span className="mx-2">•</span>
+                <a href="tel:+212619852591" className="text-ledger-light hover:text-ledger-accent underline underline-offset-2">
+                  +212 619-852591
+                </a>
+                <span className="mx-2">•</span>
+                <a href="https://wa.me/212619852591" target="_blank" rel="noopener noreferrer" className="text-ledger-accent hover:text-ledger-light underline underline-offset-2">
+                  WhatsApp
+                </a>
+              </p>
+              <p className="text-xs text-ledger-muted/60">{messages.contact.alternative}</p>
+            </div>
           </div>
         </div>
       </section>

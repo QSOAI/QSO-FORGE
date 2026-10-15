@@ -1,5 +1,6 @@
 import type { AuditDimension, AuditScore, AuditFinding, RevenueAudit, ImpactLabel } from '@/types';
 
+// TODO: PC-AUDIT-003 eight-domain future — do not publish 8 until reconciliation. Codebase is CONFIRMED 6 (Website/Mobile/Conversion/SEO/Trust/Booking). Do not invent 7th/8th domain.
 export const AUDIT_DIMENSIONS: AuditDimension[] = [
   'website',
   'mobile',
