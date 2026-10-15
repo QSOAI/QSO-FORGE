@@ -51,6 +51,7 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
       images: ["/images/hero-qso-forge.jpg"],
     },
     alternates: {
+      canonical: `/${locale}`,
       languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])),
     },
   };

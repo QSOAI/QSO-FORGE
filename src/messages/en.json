@@ -369,7 +369,7 @@
     ],
     "notTitle": "What it is not",
     "tableTitle": "Phase 0 sample — 15 startups, company-level only",
-    "tableNote": "Company-level only to reduce Law 09-08 exposure — Confirm with counsel. No Team column, no named founders for Phase 0.",
+    "tableNote": "Company-level only to reduce Law 09-08 exposure. No Team column, no named founders for Phase 0.",
     "columns": [
       "Startup",
       "Sector",
@@ -579,7 +579,7 @@
     "stagingNote": "[NEEDS INPUT: Verified 15-startup sample] — Staging-blocked, do not release to prod until founder provides verified rows."
   },
   "aiSystems": {
-    "heroBadge": "Staging-blocked — Awaiting PEMS example+hash + Factory allow-list",
+    "heroBadge": "Methodology under review — public details coming soon",
     "heroHeadline": "AI Systems — Orchestrated agents with validation",
     "heroSubheadline": "Architecture and roles. No live demo until verified example is supplied.",
     "rolesTitle": "Agent roles",

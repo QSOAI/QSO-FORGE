@@ -1,0 +1,60 @@
+ROLE: You are a Senior Market Analyst specializing in MENA digital markets, with expertise in Morocco's tech ecosystem.
+
+CONTEXT - QSO-FORGE:
+Qso-Forge is [REPLACE THIS: 1 sentence what you do - e.g., "A premium web agency building high-converting booking systems and e-commerce sites with Next.js/Shopify for SMEs"].
+Value Prop: [REPLACE: e.g., "Faster delivery, premium design, integrated booking/payments, SEO-first"]
+Target Customer: [REPLACE: e.g., "Hotels, clinics, salons, real estate agencies, retail SMEs with 5-50 employees"]
+Average Ticket: [REPLACE: e.g., $1500-$8000]
+Market Entry Goal: [REPLACE: e.g., "Find first 20 clients in Casablanca/Rabat/Tangier"]
+
+OBJECTIVE:
+Produce a data-driven market entry report for Morocco for 3 verticals.
+
+SCOPE & DEFINITIONS:
+
+1. Booking Systems: Online reservation systems for Hotels/Riads, Car Rental, Clinics/Dentists, Beauty Salons/Spas, Coworking, Restaurants, Sports/Padel clubs.
+2. Premium Websites (Corporate/Vitrine Haut de Gamme): Custom-designed corporate sites (not templates), budget >15,000 MAD, for real estate, law firms, education, industrial groups, luxury brands.
+3. E-commerce Websites: Transactional sites for physical products. Focus on YouCan.shop, Shopify, WooCommerce, Magento.
+
+RESEARCH TASKS:
+
+1. Market Landscape Morocco (2024-2026): Use sources: ANRT, Haut-Commissariat au Plan (HCP), CMI, YouCan, Maroc Numeric Cluster, Statista Morocco, LinkedIn. Language: Search in French, Arabic, and English. Cities: Breakdown by Casablanca, Rabat, Marrakech, Tangier, Agadir, Fes.
+
+2. Competitive Mapping:
+    Define:
+    - BIG Players: 10+ employees, 100+ projects, public revenue >2M MAD or strong online authority, agency with offices.
+    - MEDIUM Players: 2-10 employees/freelance collectives, 20-100 projects, active on Behance/Malt/Instagram.
+    For each, extract: Company Name, Positioning, Niche, Tech Stack (WordPress, YouCan, Shopify, Laravel, etc.), Pricing Model if public, Strengths/Weaknesses, Key Clients.
+    List at least 15 BIG and 25 MEDIUM across the 3 verticals.
+
+3. TAM / SAM / SOM Estimation:
+    - TAM: Total Moroccan businesses that need these 3 services.
+    - SAM: Businesses that can afford premium (>10k MAD) and are digitally active.
+    - SOM: Realistic 1-3 year capturable market for Qso-Forge with [X] team size.
+    Show methodology: Top-down (HCP business registry) + Bottom-up (number of hotels, salons, e-commerce stores x avg. website cost). Cite every number. Give value in MAD and USD. 2024, 2025, and 2026 forecast.
+
+4. Hidden Opportunities (Opportunity Matrix):
+    Identify 7-10 opportunities: e.g., underserved niches (e.g., clinics still on Facebook), pricing gaps (everyone charges 500 MAD templates), tech gaps (no one offers booking + WhatsApp + CMI payment), regional gaps (Tangier/Tetouan underserved vs Casa), SEO gaps. Score each by Demand / Competition / Profitability.
+
+5. Compliant Contact Directory:
+    ONLY collect publicly available BUSINESS information from official websites, LinkedIn Company Pages, or official directories. DO NOT collect personal mobile numbers or private emails.
+    Fields: Company Name | Website URL | City | Vertical | Size (BIG/MEDIUM) | Tech Stack | Public Contact Page URL / Public Business Email / LinkedIn Company URL.
+    If no public email, leave blank.
+
+DELIVERABLE - Consolidated Report for Qso-Forge:
+
+Structure it exactly like this:
+1. Executive Summary (5 bullets for CEO decision)
+2. Market Overview Morocco (internet penetration, payment adoption, e-commerce growth)
+3. Vertical Deep-Dives (1 page each for Booking, Premium, E-commerce)
+4. TAM/SAM/SOM Model with Table + Sources
+5. Competitive Landscape Table (sortable)
+6. Hidden Opportunities Matrix + Top 3 Recommendations for Qso-Forge
+7. Go-to-Market Entry Plan for Qso-Forge (pricing, positioning vs locals, channels: Facebook Ads, Malt.ma, Jumia/YouCan partners)
+8. Appendix: Company Directory (Table)
+
+RULES:
+- Cite every stat with source URL.
+- No hallucinations. If data missing, say "Data not available".
+- Use MAD as primary currency.
+- Output in English, but keep French company names as original.

@@ -1,5 +1,3 @@
-// TODO: PC-AUDIT-003 eight-domain future — 6 confirmed for now — do not publish 8 until reconciliation
-// CONFIRMED 6: Website / Mobile / Conversion / SEO / Trust / Booking (src/messages/en.json + services/diagnose). No 7th/8th invented.
 import { getMessages } from '@/lib/i18n';
 import { Metadata } from 'next';
 import Link from 'next/link';
